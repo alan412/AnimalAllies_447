@@ -1,92 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Version="1.0.2.10" xmlns="http://www.ni.com/SourceModel.xsd">
-    <Namespace Name="Project">
-        <VirtualInstrument IsTopLevel="false" IsReentrant="false" Version="1.0.2.0" OverridingModelDefinitionType="X3VIDocument" xmlns="http://www.ni.com/VirtualInstrument.xsd">
-            <DataItem Name="\1stnumber" DataType="Single" DefaultTerminalDirection="Output" CallUsage="None" CallDirection="Input" CallIndex="2" IsSelfSustaining="true" DefaultValue="0" />
-            <DataItem Name="\2condnumber" DataType="Single" DefaultTerminalDirection="Output" CallUsage="None" CallDirection="Input" CallIndex="3" IsSelfSustaining="true" DefaultValue="0" />
-            <DataItem Name="result" DataType="Single" DefaultTerminalDirection="Input" CallUsage="None" CallDirection="Output" CallIndex="0" IsSelfSustaining="true" DefaultValue="0" />
-            <DataItem Name="SequenceIn" DataType="NationalInstruments:SourceModel:DataTypes:X3SequenceWireDataType" DefaultTerminalDirection="Output" CallUsage="None" CallDirection="Input" CallIndex="0" IsSelfSustaining="true" />
-            <DataItem Name="SequenceOut" DataType="NationalInstruments:SourceModel:DataTypes:X3SequenceWireDataType" DefaultTerminalDirection="Input" CallUsage="None" CallDirection="Output" CallIndex="1" IsSelfSustaining="true" />
-            <InterruptsToListenForDataItem Name="InterruptsToListenFor_16B03592_CD76_4D58_8DC3_E3C3091E327A" DataType="Int32" DefaultTerminalDirection="Output" CallUsage="None" CallDirection="Input" CallIndex="1" IsSelfSustaining="true" DefaultValue="0" />
-            <FrontPanel>
-                <fpruntime:FrontPanelCanvas xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:fpruntime="clr-namespace:NationalInstruments.LabVIEW.FrontPanelRuntime;assembly=NationalInstruments.LabVIEW.FrontPanelRuntime" xmlns:Model="clr-namespace:NationalInstruments.SourceModel.Designer;assembly=NationalInstruments.SourceModel" x:Name="FrontPanel" Model:DesignerSurfaceProperties.CanSnapToObjects="True" Model:DesignerSurfaceProperties.SnapToObjects="True" Model:DesignerSurfaceProperties.ShowSnaplines="True" Model:DesignerSurfaceProperties.ShowControlAdorners="True" Width="640" Height="480" />
-            </FrontPanel>
-            <BlockDiagram Name="__RootDiagram__">
-                <StartBlock Id="n1" Bounds="52 34 70 91" Target="X3\.Lib:StartBlockTest">
-                    <ConfigurableMethodTerminal>
-                        <Terminal Id="Result" Direction="Output" DataType="Boolean" Hotspot="0.5 1" Bounds="0 0 0 0" />
-                    </ConfigurableMethodTerminal>
-                    <Terminal Id="SequenceOut" Direction="Output" Wire="w12" DataType="NationalInstruments:SourceModel:DataTypes:X3SequenceWireDataType" Hotspot="1 0.5" Bounds="52 33 18 18" />
-                </StartBlock>
-                <ConfigurableMethodCall Id="n7" Bounds="168 34 163 91" Target="Comparison_Greater\.vix">
-                    <ConfigurableMethodTerminal ConfiguredValue="1">
-                        <Terminal Id="x" Direction="Input" Wire="w13" DataType="Single" Hotspot="0.5 1" Bounds="54 56 30 27" />
-                    </ConfigurableMethodTerminal>
-                    <ConfigurableMethodTerminal ConfiguredValue="1">
-                        <Terminal Id="y" Direction="Input" Wire="w14" DataType="Single" Hotspot="0.5 1" Bounds="85 56 30 27" />
-                    </ConfigurableMethodTerminal>
-                    <ConfigurableMethodTerminal>
-                        <Terminal Id="Result" Direction="Output" Wire="w9" DataType="Boolean" Hotspot="0.5 1" Bounds="116 56 30 27" />
-                    </ConfigurableMethodTerminal>
-                    <Terminal Id="SequenceIn" Direction="Input" Wire="w12" DataType="NationalInstruments:SourceModel:DataTypes:X3SequenceWireDataType" Hotspot="0 0.5" Bounds="0 33 18 18" />
-                    <Terminal Id="SequenceOut" Direction="Output" Wire="w8" DataType="NationalInstruments:SourceModel:DataTypes:X3SequenceWireDataType" Hotspot="1 0.5" Bounds="145 33 18 18" />
-                </ConfigurableMethodCall>
-                <ConfigurableCaseStructure Id="n10" Bounds="416 -23 252 182" DataType="Boolean" UserSelectorBounds="0 0 0 0" Selected="D11" Default="D11" PairedConfigurableMethodCall="n13">
-                    <Terminal Id="SequenceOut" Direction="Output" DataType="NationalInstruments:SourceModel:DataTypes:X3SequenceWireDataType" Hotspot="1 0.5" Bounds="234 89 18 18" />
-                    <ConfigurableCaseStructure.Case Id="D11" Bounds="10 4 232 175" Pattern="True">
-                        <SequenceNode Id="Output" Bounds="0 85 18 18">
-                            <Terminal Id="SequenceTerminal" Direction="Output" Wire="w3" DataType="NationalInstruments:SourceModel:DataTypes:X3SequenceWireDataType" Hotspot="1 0.5" Bounds="0 0 18 18" />
-                        </SequenceNode>
-                        <SequenceNode Id="Input" Bounds="205 85 18 18">
-                            <Terminal Id="SequenceTerminal" Direction="Input" Wire="w3" DataType="NationalInstruments:SourceModel:DataTypes:X3SequenceWireDataType" Hotspot="0 0.5" Bounds="0 0 18 18" />
-                        </SequenceNode>
-                        <Wire Id="w3" Joints="N(Output:SequenceTerminal) N(Input:SequenceTerminal)" />
-                        <Wire Id="w6" Joints="N(b13:D11) v(-25) h(96) v(25) N(b15:D11)" />
-                    </ConfigurableCaseStructure.Case>
-                    <ConfigurableCaseStructure.Case Id="D12" Bounds="10 4 232 175" Pattern="False">
-                        <SequenceNode Id="Output" Bounds="0 85 18 18">
-                            <Terminal Id="SequenceTerminal" Direction="Output" Wire="w3" DataType="NationalInstruments:SourceModel:DataTypes:X3SequenceWireDataType" Hotspot="1 0.5" Bounds="0 0 18 18" />
-                        </SequenceNode>
-                        <SequenceNode Id="Input" Bounds="205 85 18 18">
-                            <Terminal Id="SequenceTerminal" Direction="Input" Wire="w3" DataType="NationalInstruments:SourceModel:DataTypes:X3SequenceWireDataType" Hotspot="0 0.5" Bounds="0 0 18 18" />
-                        </SequenceNode>
-                        <Wire Id="w3" Joints="N(Output:SequenceTerminal) N(Input:SequenceTerminal)" />
-                        <Wire Id="w7" Joints="N(b14:D12) v(-14) h(49) N(b15:D12)" />
-                    </ConfigurableCaseStructure.Case>
-                    <ConfigurableCaseStructure.ConfigurableCaseTunnel Id="b13" Terminals="n10=w13, D11=w6, D12" Bounds="35 149 30 63" />
-                    <ConfigurableCaseStructure.ConfigurableCaseTunnel Id="b14" Terminals="n10=w14, D11, D12=w7" Bounds="76 149 30 63" />
-                    <ConfigurableCaseStructure.ConfigurableCaseTunnel Id="b15" Terminals="n10=w17, D11=w6, D12=w7" Bounds="125 149 30 63" />
-                </ConfigurableCaseStructure>
-                <PairedConfigurableMethodCall Id="n13" Bounds="331 33 85 91" Target="CaseSelector_Boolean\.vix" PairedStructure="n10">
-                    <ConfigurableMethodTerminal ConfiguredValue="False">
-                        <Terminal Id="Boolean" Direction="Input" Wire="w9" DataType="Boolean" Hotspot="0.5 1" Bounds="54 56 30 27" />
-                    </ConfigurableMethodTerminal>
-                    <ConfigurableMethodTerminal>
-                        <Terminal Id="Result" Direction="Output" DataType="Boolean" Hotspot="0.5 1" Bounds="0 0 0 0" />
-                    </ConfigurableMethodTerminal>
-                    <Terminal Id="SequenceIn" Direction="Input" Wire="w8" DataType="NationalInstruments:SourceModel:DataTypes:X3SequenceWireDataType" Hotspot="0 0.5" Bounds="0 33 18 18" />
-                    <Terminal Id="SequenceOut" Direction="Output" DataType="NationalInstruments:SourceModel:DataTypes:X3SequenceWireDataType" Hotspot="1 0.5" Bounds="0 0 0 0" />
-                </PairedConfigurableMethodCall>
-                <Wire Id="w9" Joints="N(n7:Result) v(22) h(101) N(n13:Boolean)" />
-                <Wire Id="w8" Joints="N(n7:SequenceOut) N(n13:SequenceIn)" />
-                <Wire Id="w12" Joints="N(n1:SequenceOut) N(n7:SequenceIn)" />
-                <ConfigurableMegaAccessor Id="n16" Bounds="-70 34 80 91" Target="X3\.Lib:ConfigurableMegaAccessor" AccessorType="Input">
-                    <ConfigurableMethodTerminal>
-                        <Terminal Id="\1stnumber" Direction="Output" Wire="w13" DataType="Single" Hotspot="0.5 1" Bounds="10 56 30 27" />
-                    </ConfigurableMethodTerminal>
-                    <ConfigurableMethodTerminal>
-                        <Terminal Id="\2condnumber" Direction="Output" Wire="w14" DataType="Single" Hotspot="0.5 1" Bounds="41 56 30 27" />
-                    </ConfigurableMethodTerminal>
-                </ConfigurableMegaAccessor>
-                <ConfigurableMegaAccessor Id="n17" Bounds="814 23 49 91" Target="X3\.Lib:ConfigurableMegaAccessor" AccessorType="Output">
-                    <ConfigurableMethodTerminal ConfiguredValue="0">
-                        <Terminal Id="result" Direction="Input" Wire="w17" DataType="Single" Hotspot="0.5 1" Bounds="10 56 30 27" />
-                    </ConfigurableMethodTerminal>
-                </ConfigurableMegaAccessor>
-                <Wire Id="w13" Joints="N(n16:\1stnumber) v(91) h(511) N(b13:n10) B(0) v(22) h(282) N(n7:x)" />
-                <Wire Id="w14" Joints="N(n16:\2condnumber) v(127) h(521) N(b14:n10) B(0) v(30) h(282) N(n7:y)" />
-                <Wire Id="w17" Joints="N(b15:n10) v(19) h(283) N(n17:result)" />
-            </BlockDiagram>
-        </VirtualInstrument>
-    </Namespace>
-</SourceFile>
+<EditorDefinitions>
+  <PolyGroups>
+    <PolyGroup BlockFamily="My" IconBaseName="PolyGroup_076_Compare">
+      <Block>
+        <Mode>MyBlock</Mode>
+        <Reference Type="VILib" />
+        <PaletteInfo Weight="0.5" />
+        <ParamInfo Name="1stnumber" DisplayName="1stnumber" Direction="Input" Identification="Identification_000_A.png" DataType="Single" DefaultValue="0" />
+        <ParamInfo Name="2condnumber" DisplayName="2condnumber" Direction="Input" Identification="Identification_001_B.png" DataType="Single" DefaultValue="0" />
+        <ParamInfo Name="result" DisplayName="result" Direction="Output" Identification="Identification_030_ComparisonType_Equal.png" DataType="Single" />
+      </Block>
+    </PolyGroup>
+  </PolyGroups>
+</EditorDefinitions>
