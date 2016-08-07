@@ -8,7 +8,7 @@
         <PaletteInfo Weight="0.5" />
         <ParamInfo Name="name" DisplayName="name" Direction="Input" Identification="Identification_0010_Text.png" DataType="String" DefaultValue="" />
         <ParamInfo Name="value" DisplayName="value" Direction="Input" Identification="Identification_008_Numeric.png" DataType="String" DefaultValue="" />
-        <ParamInfo Name="erase?" DisplayName="erase?" Direction="Input" Identification="Identification_071_ClearScreen.png" DataType="Boolean" DefaultValue="False" />
+        <ParamInfo Name="erase?" DisplayName="erase?" Direction="Input" Identification="Identification_071_ClearScreen.png" DataType="Boolean" DefaultValue="True" />
         <ParamInfo Name="line" DisplayName="line" Direction="Input" Identification="Identification_029_Height.png" DataType="Single" DefaultValue="2" />
       </Block>
     </PolyGroup>
