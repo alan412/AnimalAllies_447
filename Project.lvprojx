@@ -21,10 +21,26 @@
                     <X3DocumentSettings IsHiddenDependency="False" IsTeacherOnlyFile="False" ShowFileOnStartup="False" xmlns="http://www.ni.com/X3DocumentSettings.xsd" />
                 </SourceFileReference>
                 <DefinitionReference Bindings="Envoy,DefinitionReference,EmbeddedReference,ProjectItemDragDropDefaultService" DocumentTypeIdentifier="NationalInstruments.ExternalFileSupport.Modeling.ExternalFileType" Name="constrain\.ev3p\.mbxml" />
+                <SourceFileReference Bindings="Envoy,DefinitionReference,SourceFileReference,X3VIDocument" DocumentTypeIdentifier="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="front\.ev3p" OverridingDocumentTypeIdentifier="X3VIDocument" RelativeStoragePath="front.ev3p" StoragePath="front.ev3p">
+                    <X3DocumentSettings IsHiddenDependency="False" IsTeacherOnlyFile="False" ShowFileOnStartup="False" xmlns="http://www.ni.com/X3DocumentSettings.xsd" />
+                </SourceFileReference>
+                <DefinitionReference Bindings="Envoy,DefinitionReference,EmbeddedReference,ProjectItemDragDropDefaultService" DocumentTypeIdentifier="NationalInstruments.ExternalFileSupport.Modeling.ExternalFileType" Name="front\.ev3p\.mbxml" />
                 <SourceFileReference Bindings="Envoy,DefinitionReference,SourceFileReference,X3VIDocument" DocumentTypeIdentifier="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="gyro_turn\.ev3p" OverridingDocumentTypeIdentifier="X3VIDocument" RelativeStoragePath="gyro_turn.ev3p" StoragePath="gyro_turn.ev3p">
                     <X3DocumentSettings IsHiddenDependency="False" IsTeacherOnlyFile="False" ShowFileOnStartup="False" xmlns="http://www.ni.com/X3DocumentSettings.xsd" />
                 </SourceFileReference>
                 <DefinitionReference Bindings="Envoy,DefinitionReference,EmbeddedReference,ProjectItemDragDropDefaultService" DocumentTypeIdentifier="NationalInstruments.ExternalFileSupport.Modeling.ExternalFileType" Name="gyro_turn\.ev3p\.mbxml" />
+                <SourceFileReference Bindings="Envoy,DefinitionReference,SourceFileReference,X3VIDocument" DocumentTypeIdentifier="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="gyrocm\.ev3p" OverridingDocumentTypeIdentifier="X3VIDocument" RelativeStoragePath="gyrocm.ev3p" StoragePath="gyrocm.ev3p">
+                    <X3DocumentSettings IsHiddenDependency="False" IsTeacherOnlyFile="False" ShowFileOnStartup="False" xmlns="http://www.ni.com/X3DocumentSettings.xsd" />
+                </SourceFileReference>
+                <DefinitionReference Bindings="Envoy,DefinitionReference,EmbeddedReference,ProjectItemDragDropDefaultService" DocumentTypeIdentifier="NationalInstruments.ExternalFileSupport.Modeling.ExternalFileType" Name="gyrocm\.ev3p\.mbxml" />
+                <SourceFileReference Bindings="Envoy,DefinitionReference,SourceFileReference,X3VIDocument" DocumentTypeIdentifier="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="gyroReset\.ev3p" OverridingDocumentTypeIdentifier="X3VIDocument" RelativeStoragePath="gyroReset.ev3p" StoragePath="gyroReset.ev3p">
+                    <X3DocumentSettings IsHiddenDependency="False" IsTeacherOnlyFile="False" ShowFileOnStartup="False" xmlns="http://www.ni.com/X3DocumentSettings.xsd" />
+                </SourceFileReference>
+                <DefinitionReference Bindings="Envoy,DefinitionReference,EmbeddedReference,ProjectItemDragDropDefaultService" DocumentTypeIdentifier="NationalInstruments.ExternalFileSupport.Modeling.ExternalFileType" Name="gyroReset\.ev3p\.mbxml" />
+                <SourceFileReference Bindings="Envoy,DefinitionReference,SourceFileReference,X3VIDocument" DocumentTypeIdentifier="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="HeadingChange\.ev3p" OverridingDocumentTypeIdentifier="X3VIDocument" RelativeStoragePath="HeadingChange.ev3p" StoragePath="HeadingChange.ev3p">
+                    <X3DocumentSettings IsHiddenDependency="False" IsTeacherOnlyFile="False" ShowFileOnStartup="False" xmlns="http://www.ni.com/X3DocumentSettings.xsd" />
+                </SourceFileReference>
+                <DefinitionReference Bindings="Envoy,DefinitionReference,EmbeddedReference,ProjectItemDragDropDefaultService" DocumentTypeIdentifier="NationalInstruments.ExternalFileSupport.Modeling.ExternalFileType" Name="HeadingChange\.ev3p\.mbxml" />
                 <SourceFileReference Bindings="Envoy,DefinitionReference,SourceFileReference,X3VIDocument" DocumentTypeIdentifier="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="max\.ev3p" OverridingDocumentTypeIdentifier="X3VIDocument" RelativeStoragePath="max.ev3p" StoragePath="max.ev3p">
                     <X3DocumentSettings IsHiddenDependency="False" IsTeacherOnlyFile="False" ShowFileOnStartup="False" xmlns="http://www.ni.com/X3DocumentSettings.xsd" />
                 </SourceFileReference>
@@ -37,13 +53,20 @@
                     <X3DocumentSettings IsHiddenDependency="False" IsTeacherOnlyFile="False" ShowFileOnStartup="False" xmlns="http://www.ni.com/X3DocumentSettings.xsd" />
                 </SourceFileReference>
                 <DefinitionReference Bindings="Envoy,DefinitionReference,EmbeddedReference,ProjectItemDragDropDefaultService" DocumentTypeIdentifier="NationalInstruments.ExternalFileSupport.Modeling.ExternalFileType" Name="Normalized_Gyro_Angle\.ev3p\.mbxml" />
+                <SourceFileReference Bindings="Envoy,DefinitionReference,SourceFileReference,X3VIDocument" DocumentTypeIdentifier="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="resetblock\.ev3p" OverridingDocumentTypeIdentifier="X3VIDocument" RelativeStoragePath="resetblock.ev3p" StoragePath="resetblock.ev3p">
+                    <X3DocumentSettings IsHiddenDependency="False" IsTeacherOnlyFile="False" ShowFileOnStartup="False" xmlns="http://www.ni.com/X3DocumentSettings.xsd" />
+                </SourceFileReference>
+                <DefinitionReference Bindings="Envoy,DefinitionReference,EmbeddedReference,ProjectItemDragDropDefaultService" DocumentTypeIdentifier="NationalInstruments.ExternalFileSupport.Modeling.ExternalFileType" Name="resetblock\.ev3p\.mbxml" />
                 <SourceFileReference Bindings="Envoy,DefinitionReference,SourceFileReference,X3VIDocument" DocumentTypeIdentifier="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="show_value\.ev3p" OverridingDocumentTypeIdentifier="X3VIDocument" RelativeStoragePath="show_value.ev3p" StoragePath="show_value.ev3p">
                     <X3DocumentSettings IsHiddenDependency="False" IsTeacherOnlyFile="False" ShowFileOnStartup="False" xmlns="http://www.ni.com/X3DocumentSettings.xsd" />
                 </SourceFileReference>
                 <DefinitionReference Bindings="Envoy,DefinitionReference,EmbeddedReference,ProjectItemDragDropDefaultService" DocumentTypeIdentifier="NationalInstruments.ExternalFileSupport.Modeling.ExternalFileType" Name="show_value\.ev3p\.mbxml" />
             </Target>
             <ProjectSettings>
-                <NamedGlobalData xmlns="http://www.ni.com/X3NamedGlobalData.xsd" />
+                <NamedGlobalData xmlns="http://www.ni.com/X3NamedGlobalData.xsd">
+                    <Datum Kind="Variable" Name="gyro offset" Type="X3Numeric" />
+                    <Datum Kind="Variable" Name="blue front" Type="X3Numeric" />
+                </NamedGlobalData>
                 <ProjectOrigin Path="en-US/Internal/FreePlayProgram.ev3" xmlns="http://www.ni.com/X3ProjectOrigin.xsd" />
                 <DaisyChainMode On="False" xmlns="http://www.ni.com/X3ProjectPropertiesModel.xsd" />
             </ProjectSettings>
@@ -96,9 +119,33 @@
             <StoragePath />
         </ExternalFile>
     </Namespace>
+    <Namespace Name="front\.ev3p\.mbxml">
+        <ExternalFile xmlns="http://www.ni.com/ExternalFile.xsd">
+            <RelativeStoragePath>front.ev3p.mbxml</RelativeStoragePath>
+            <StoragePath />
+        </ExternalFile>
+    </Namespace>
     <Namespace Name="gyro_turn\.ev3p\.mbxml">
         <ExternalFile xmlns="http://www.ni.com/ExternalFile.xsd">
             <RelativeStoragePath>gyro_turn.ev3p.mbxml</RelativeStoragePath>
+            <StoragePath />
+        </ExternalFile>
+    </Namespace>
+    <Namespace Name="gyrocm\.ev3p\.mbxml">
+        <ExternalFile xmlns="http://www.ni.com/ExternalFile.xsd">
+            <RelativeStoragePath>gyrocm.ev3p.mbxml</RelativeStoragePath>
+            <StoragePath />
+        </ExternalFile>
+    </Namespace>
+    <Namespace Name="gyroReset\.ev3p\.mbxml">
+        <ExternalFile xmlns="http://www.ni.com/ExternalFile.xsd">
+            <RelativeStoragePath>gyroReset.ev3p.mbxml</RelativeStoragePath>
+            <StoragePath />
+        </ExternalFile>
+    </Namespace>
+    <Namespace Name="HeadingChange\.ev3p\.mbxml">
+        <ExternalFile xmlns="http://www.ni.com/ExternalFile.xsd">
+            <RelativeStoragePath>HeadingChange.ev3p.mbxml</RelativeStoragePath>
             <StoragePath />
         </ExternalFile>
     </Namespace>
@@ -117,6 +164,12 @@
     <Namespace Name="Normalized_Gyro_Angle\.ev3p\.mbxml">
         <ExternalFile xmlns="http://www.ni.com/ExternalFile.xsd">
             <RelativeStoragePath>Normalized_Gyro_Angle.ev3p.mbxml</RelativeStoragePath>
+            <StoragePath />
+        </ExternalFile>
+    </Namespace>
+    <Namespace Name="resetblock\.ev3p\.mbxml">
+        <ExternalFile xmlns="http://www.ni.com/ExternalFile.xsd">
+            <RelativeStoragePath>resetblock.ev3p.mbxml</RelativeStoragePath>
             <StoragePath />
         </ExternalFile>
     </Namespace>
