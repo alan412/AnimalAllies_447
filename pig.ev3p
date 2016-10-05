@@ -67,7 +67,7 @@
                     <ConfigurableMethodTerminal ConfiguredValue="76">
                         <Terminal Id="cm" Direction="Input" DataType="Single" Hotspot="0.5 1" Bounds="85 56 30 27" />
                     </ConfigurableMethodTerminal>
-                    <ConfigurableMethodTerminal ConfiguredValue="0">
+                    <ConfigurableMethodTerminal ConfiguredValue="-100">
                         <Terminal Id="end\ power" Direction="Input" DataType="Single" Hotspot="0.5 1" Bounds="116 56 30 27" />
                     </ConfigurableMethodTerminal>
                     <ConfigurableMethodTerminal ConfiguredValue="False">
