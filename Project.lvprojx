@@ -6,17 +6,12 @@
                 <ProjectReference ReferenceName="NationalInstruments.VI.VirtualMachine.Runtime, Version=0.0.0.0" ReferencePath="" />
                 <ProjectReference ReferenceName="NationalInstruments.LabVIEW.CoreRuntime, Version=0.0.0.0" ReferencePath="" />
                 <SourceFileReference DocumentTypeIdentifier="NationalInstruments.GuidedHelpFramework.Model.GuidedHelp" Name="Activity\.x3a" RelativeStoragePath="Activity.x3a" StoragePath="Activity.x3a" />
-<<<<<<< HEAD
+                <SourceFileReference DocumentTypeIdentifier="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="_____Master\.ev3p" OverridingDocumentTypeIdentifier="X3VIDocument" RelativeStoragePath="_____Master.ev3p" StoragePath="_____Master.ev3p" />
                 <SourceFileReference DocumentTypeIdentifier="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="dog\.ev3p" OverridingDocumentTypeIdentifier="X3VIDocument" RelativeStoragePath="dog.ev3p" StoragePath="dog.ev3p" />
                 <SourceFileReference DocumentTypeIdentifier="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="myblockmaker\.ev3p" OverridingDocumentTypeIdentifier="X3VIDocument" RelativeStoragePath="myblockmaker.ev3p" StoragePath="myblockmaker.ev3p" />
                 <SourceFileReference DocumentTypeIdentifier="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="pig\.ev3p" OverridingDocumentTypeIdentifier="X3VIDocument" RelativeStoragePath="pig.ev3p" StoragePath="pig.ev3p" />
-                <SourceFileReference DocumentTypeIdentifier="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="test\.ev3p" OverridingDocumentTypeIdentifier="X3VIDocument" RelativeStoragePath="test.ev3p" StoragePath="test.ev3p" />
-=======
-                <SourceFileReference DocumentTypeIdentifier="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="_____Master\.ev3p" OverridingDocumentTypeIdentifier="X3VIDocument" RelativeStoragePath="_____Master.ev3p" StoragePath="_____Master.ev3p" />
-                <SourceFileReference DocumentTypeIdentifier="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="myblockmaker\.ev3p" OverridingDocumentTypeIdentifier="X3VIDocument" RelativeStoragePath="myblockmaker.ev3p" StoragePath="myblockmaker.ev3p" />
-                <SourceFileReference DocumentTypeIdentifier="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="pig\.ev3p" OverridingDocumentTypeIdentifier="X3VIDocument" RelativeStoragePath="pig.ev3p" StoragePath="pig.ev3p" />
                 <SourceFileReference DocumentTypeIdentifier="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Send\ Food\.ev3p" OverridingDocumentTypeIdentifier="X3VIDocument" RelativeStoragePath="Send Food.ev3p" StoragePath="Send Food.ev3p" />
->>>>>>> 949136e33c31f1d3e07b5ef5c923dae3268753f5
+                <SourceFileReference DocumentTypeIdentifier="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="test\.ev3p" OverridingDocumentTypeIdentifier="X3VIDocument" RelativeStoragePath="test.ev3p" StoragePath="test.ev3p" />
                 <DefinitionReference Bindings="Envoy,DefinitionReference,EmbeddedReference,ProjectItemDragDropDefaultService" DocumentTypeIdentifier="NationalInstruments.ExternalFileSupport.Modeling.ExternalFileType" Name="ActivityAssets\.laz" />
                 <DefinitionReference Bindings="Envoy,DefinitionReference,EmbeddedReference" DocumentTypeIdentifier="NationalInstruments.X3.App.X3FolderLoaderDefinition" Name="vi\.lib_" />
                 <DefinitionReference Bindings="Envoy,DefinitionReference,EmbeddedReference,ProjectItemDragDropDefaultService" DocumentTypeIdentifier="NationalInstruments.ExternalFileSupport.Modeling.ExternalFileType" Name="___ProjectTitle" />
