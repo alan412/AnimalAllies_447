@@ -17,7 +17,7 @@
                     </ConfigurableMethodTerminal>
                     <Terminal Id="SequenceOut" Direction="Output" Wire="w13" DataType="NationalInstruments:SourceModel:DataTypes:X3SequenceWireDataType" Hotspot="1 0.5" Bounds="52 33 18 18" />
                 </StartBlock>
-                <ConfigurableCaseStructure Id="n7" Bounds="216 -46 729 214" DataType="Int32" UserSelectorBounds="0 0 0 0" Selected="D8" Default="D8" PairedConfigurableMethodCall="n10">
+                <ConfigurableCaseStructure Id="n7" Bounds="216 -46 729 214" DataType="Int32" UserSelectorBounds="0 0 0 0" Selected="D13" Default="D8" PairedConfigurableMethodCall="n10">
                     <Terminal Id="SequenceOut" Direction="Output" DataType="NationalInstruments:SourceModel:DataTypes:X3SequenceWireDataType" Hotspot="1 0.5" Bounds="711 79 18 18" />
                     <ConfigurableCaseStructure.Case Id="D8" Bounds="10 4 709 207" Pattern="0">
                         <SequenceNode Id="Output" Bounds="0 75 18 18">
@@ -44,7 +44,7 @@
                         <Wire Id="w9" Joints="N(b9:D8) N(n7:run\?)" />
                         <Wire Id="w10" Joints="N(n7:name) N(b12:D8)" />
                     </ConfigurableCaseStructure.Case>
-                    <ConfigurableCaseStructure.Case Id="D9" Bounds="10 4 709 207" Pattern="2">
+                    <ConfigurableCaseStructure.Case Id="D9" Bounds="10 4 709 207" Pattern="5">
                         <SequenceNode Id="Output" Bounds="0 75 18 18">
                             <Terminal Id="SequenceTerminal" Direction="Output" Wire="w10" DataType="NationalInstruments:SourceModel:DataTypes:X3SequenceWireDataType" Hotspot="1 0.5" Bounds="0 0 18 18" />
                         </SequenceNode>
@@ -69,7 +69,7 @@
                         <Wire Id="w9" Joints="N(n8:SequenceOut) N(Input:SequenceTerminal)" />
                         <Wire Id="w10" Joints="N(Output:SequenceTerminal) N(n8:SequenceIn)" />
                     </ConfigurableCaseStructure.Case>
-                    <ConfigurableCaseStructure.Case Id="D13" Bounds="10 4 709 207" Pattern="5">
+                    <ConfigurableCaseStructure.Case Id="D13" Bounds="10 4 709 207" Pattern="2">
                         <SequenceNode Id="n1" Bounds="0 75 18 18">
                             <Terminal Id="Output" Direction="Output" Wire="w6" DataType="NationalInstruments:SourceModel:DataTypes:X3SequenceWireDataType" Hotspot="1 0.5" Bounds="0 0 18 18" />
                         </SequenceNode>

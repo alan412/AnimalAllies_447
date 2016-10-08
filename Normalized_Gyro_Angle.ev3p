@@ -39,7 +39,7 @@
                     <ConfigurableMethodTerminal ConfiguredValue="0">
                         <Terminal Id="D" Direction="Input" DataType="Single" Hotspot="0.5 1" Bounds="147 56 30 27" />
                     </ConfigurableMethodTerminal>
-                    <ConfigurableMethodTerminal ConfiguredValue="(a+b+c)%360">
+                    <ConfigurableMethodTerminal ConfiguredValue="(-a+b)%360">
                         <Terminal Id="Equation" Direction="Input" DataType="String" Hotspot="0.5 1" Bounds="0 0 0 0" />
                     </ConfigurableMethodTerminal>
                     <ConfigurableMethodTerminal>
@@ -113,7 +113,7 @@
                 </PairedConfigurableMethodCall>
                 <Wire Id="w15" Joints="N(n7:Result) v(22) h(101) N(n18:Boolean)" />
                 <Wire Id="w14" Joints="N(n7:SequenceOut) N(n18:SequenceIn)" />
-                <ConfigurableMegaAccessor Id="n27" Bounds="1839 162 49 91" Target="X3\.Lib:ConfigurableMegaAccessor" AccessorType="Output">
+                <ConfigurableMegaAccessor Id="n27" Bounds="1320 26 49 91" Target="X3\.Lib:ConfigurableMegaAccessor" AccessorType="Output">
                     <ConfigurableMethodTerminal ConfiguredValue="0">
                         <Terminal Id="Angle" Direction="Input" Wire="w30" DataType="Single" Hotspot="0.5 1" Bounds="10 56 30 27" />
                     </ConfigurableMethodTerminal>
@@ -131,7 +131,7 @@
                 <Wire Id="w26" Joints="N(n25:SequenceOut) N(n4:SequenceIn)" />
                 <Wire Id="w27" Joints="N(n25:valueOut) v(30) h(132) N(n4:Y)" />
                 <Comment Bounds="207 -96 275 115" SizeMode="User" AttachStyle="Free">
-                    <Content>thios adds the offset value to the gyro reading so that we don't have to change all of our values if we decide to square on the wall this adds 180 to our gyro b/c our gyro is upsidedown</Content>
+                    <Content>thios adds the offset value to the gyro reading so that we don't have to change all of our values if we decide to square on the wall this has -1 because gyro is upside down</Content>
                 </Comment>
                 <ConfigurableMethodCall Id="n36" Bounds="1025 34 194 91" Target="show_value\.ev3p">
                     <ConfigurableMethodTerminal ConfiguredValue="0">
@@ -146,17 +146,17 @@
                     <ConfigurableMethodTerminal ConfiguredValue="False">
                         <Terminal Id="erase\?" Direction="Input" DataType="Boolean" Hotspot="0.5 1" Bounds="116 56 30 27" />
                     </ConfigurableMethodTerminal>
-                    <ConfigurableMethodTerminal ConfiguredValue="12">
+                    <ConfigurableMethodTerminal ConfiguredValue="10">
                         <Terminal Id="line" Direction="Input" DataType="Single" Hotspot="0.5 1" Bounds="147 56 30 27" />
                     </ConfigurableMethodTerminal>
                     <Terminal Id="SequenceIn" Direction="Input" Wire="w28" DataType="NationalInstruments:SourceModel:DataTypes:X3SequenceWireDataType" Hotspot="0 0.5" Bounds="0 33 18 18" />
                     <Terminal Id="SequenceOut" Direction="Output" DataType="NationalInstruments:SourceModel:DataTypes:X3SequenceWireDataType" Hotspot="1 0.5" Bounds="176 33 18 18" />
                 </ConfigurableMethodCall>
                 <Wire Id="w40" Joints="N(n2:Angle) v(22) h(202) N(n4:X)" />
-                <Wire Id="w41" Joints="N(n4:Result) v(21) h(101) N(n7:x) B(0) v(90) h(377) N(b15:n15)" />
+                <Wire Id="w41" Joints="N(n4:Result) v(90) h(377) N(b15:n15) B(0) v(21) h(101) N(n7:x)" />
                 <Wire Id="w44" Joints="N(n1:SequenceOut) N(n2:SequenceIn)" />
                 <Wire Id="w33" Joints="N(n2:SequenceOut) N(n25:SequenceIn)" />
-                <Wire Id="w30" Joints="N(b16:n15) v(-23) h(169) N(n36:value) B(0) v(65) h(908) N(n27:Angle)" />
+                <Wire Id="w30" Joints="N(b16:n15) v(65) h(389) N(n27:Angle) B(0) v(103) h(169) N(n36:value)" />
                 <Wire Id="w28" Joints="N(n15:SequenceOut) N(n36:SequenceIn)" />
                 <Wire Id="w24" Joints="N(n4:SequenceOut) N(n7:SequenceIn)" />
             </BlockDiagram>
