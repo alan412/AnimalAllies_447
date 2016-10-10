@@ -99,10 +99,7 @@
             <ProjectSettings>
                 <NamedGlobalData xmlns="http://www.ni.com/X3NamedGlobalData.xsd">
                     <Datum Kind="Variable" Name="gyro offset" Type="X3Numeric" />
-                    <Datum Kind="Variable" Name="blue front" Type="X3Numeric" />
                     <Datum Kind="Variable" Name="wheel circ" Type="X3Numeric" />
-                    <Datum Kind="Variable" Name="norm wheel" Type="X3Numeric" />
-                    <Datum Kind="Variable" Name="offset wheel" Type="X3Numeric" />
                 </NamedGlobalData>
                 <ProjectOrigin Path="en-US/Internal/FreePlayProgram.ev3" xmlns="http://www.ni.com/X3ProjectOrigin.xsd" />
                 <DaisyChainMode On="False" xmlns="http://www.ni.com/X3ProjectPropertiesModel.xsd" />
