@@ -36,7 +36,7 @@
                     </ConfigurableWhileLoop.BuiltInMethod>
                     <ConfigurableWhileLoop.BuiltInMethod CallType="StopCondition">
                         <ConfigurableMethodCall Id="n1" Bounds="950 95 116 91" Target="ColorReflectedIntensityCompare\.vix">
-                            <ConfigurableMethodTerminal ConfiguredValue="1.3">
+                            <ConfigurableMethodTerminal ConfiguredValue="1.2">
                                 <Terminal Id="Port" Direction="Input" DataType="Single" Hotspot="0.5 1" Bounds="0 0 0 0" />
                             </ConfigurableMethodTerminal>
                             <ConfigurableMethodTerminal ConfiguredValue="4">
