@@ -69,7 +69,7 @@
                         <Wire Id="w9" Joints="N(n8:SequenceOut) N(Input:SequenceTerminal)" />
                         <Wire Id="w10" Joints="N(Output:SequenceTerminal) N(n8:SequenceIn)" />
                     </ConfigurableCaseStructure.Case>
-                    <ConfigurableCaseStructure.Case Id="D13" Bounds="10 4 709 207" Pattern="2">
+                    <ConfigurableCaseStructure.Case Id="D13" Bounds="10 4 709 207" Pattern="1">
                         <SequenceNode Id="n1" Bounds="0 75 18 18">
                             <Terminal Id="Output" Direction="Output" Wire="w6" DataType="NationalInstruments:SourceModel:DataTypes:X3SequenceWireDataType" Hotspot="1 0.5" Bounds="0 0 18 18" />
                         </SequenceNode>

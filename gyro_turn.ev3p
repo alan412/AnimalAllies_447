@@ -118,10 +118,10 @@
                             <SequenceNode Id="Output" Bounds="0 75 18 18">
                                 <Terminal Id="SequenceTerminal" Direction="Output" Wire="w4" DataType="NationalInstruments:SourceModel:DataTypes:X3SequenceWireDataType" Hotspot="1 0.5" Bounds="0 0 18 18" />
                             </SequenceNode>
-                            <SequenceNode Id="Input" Bounds="252 75 18 18">
+                            <SequenceNode Id="Input" Bounds="252 84 18 18">
                                 <Terminal Id="SequenceTerminal" Direction="Input" Wire="w5" DataType="NationalInstruments:SourceModel:DataTypes:X3SequenceWireDataType" Hotspot="0 0.5" Bounds="0 0 18 18" />
                             </SequenceNode>
-                            <ConfigurableMethodCall Id="n14" Bounds="18 42 132 91" Target="MoveTankMode\.vix">
+                            <ConfigurableMethodCall Id="n14" Bounds="18 51 132 91" Target="MoveTankMode\.vix">
                                 <ConfigurableMethodTerminal ConfiguredValue="1.B+C">
                                     <Terminal Id="Ports" Direction="Input" DataType="Single" Hotspot="0.5 1" Bounds="0 0 0 0" />
                                 </ConfigurableMethodTerminal>
@@ -146,10 +146,10 @@
                             <SequenceNode Id="Output" Bounds="0 75 18 18">
                                 <Terminal Id="SequenceTerminal" Direction="Output" Wire="w6" DataType="NationalInstruments:SourceModel:DataTypes:X3SequenceWireDataType" Hotspot="1 0.5" Bounds="0 0 18 18" />
                             </SequenceNode>
-                            <SequenceNode Id="Input" Bounds="252 75 18 18">
+                            <SequenceNode Id="Input" Bounds="252 84 18 18">
                                 <Terminal Id="SequenceTerminal" Direction="Input" Wire="w7" DataType="NationalInstruments:SourceModel:DataTypes:X3SequenceWireDataType" Hotspot="0 0.5" Bounds="0 0 18 18" />
                             </SequenceNode>
-                            <ConfigurableMethodCall Id="n14" Bounds="18 42 132 91" Target="MoveTankMode\.vix">
+                            <ConfigurableMethodCall Id="n14" Bounds="18 51 132 91" Target="MoveTankMode\.vix">
                                 <ConfigurableMethodTerminal ConfiguredValue="1.B+C">
                                     <Terminal Id="Ports" Direction="Input" DataType="Single" Hotspot="0.5 1" Bounds="0 0 0 0" />
                                 </ConfigurableMethodTerminal>
