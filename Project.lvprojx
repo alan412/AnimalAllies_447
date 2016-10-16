@@ -100,6 +100,14 @@
                     <X3DocumentSettings IsHiddenDependency="False" IsTeacherOnlyFile="False" ShowFileOnStartup="False" xmlns="http://www.ni.com/X3DocumentSettings.xsd" />
                 </SourceFileReference>
                 <DefinitionReference Bindings="Envoy,DefinitionReference,EmbeddedReference,ProjectItemDragDropDefaultService" DocumentTypeIdentifier="NationalInstruments.ExternalFileSupport.Modeling.ExternalFileType" Name="show_value\.ev3p\.mbxml" />
+                <SourceFileReference Bindings="Envoy,DefinitionReference,SourceFileReference,X3VIDocument" DocumentTypeIdentifier="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="stall_A\.ev3p" OverridingDocumentTypeIdentifier="X3VIDocument" RelativeStoragePath="stall_A.ev3p" StoragePath="stall_A.ev3p">
+                    <X3DocumentSettings IsHiddenDependency="False" IsTeacherOnlyFile="False" ShowFileOnStartup="False" xmlns="http://www.ni.com/X3DocumentSettings.xsd" />
+                </SourceFileReference>
+                <DefinitionReference Bindings="Envoy,DefinitionReference,EmbeddedReference,ProjectItemDragDropDefaultService" DocumentTypeIdentifier="NationalInstruments.ExternalFileSupport.Modeling.ExternalFileType" Name="stall_A\.ev3p\.mbxml" />
+                <SourceFileReference Bindings="Envoy,DefinitionReference,SourceFileReference,X3VIDocument" DocumentTypeIdentifier="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="stall_D\.ev3p" OverridingDocumentTypeIdentifier="X3VIDocument" RelativeStoragePath="stall_D.ev3p" StoragePath="stall_D.ev3p">
+                    <X3DocumentSettings IsHiddenDependency="False" IsTeacherOnlyFile="False" ShowFileOnStartup="False" xmlns="http://www.ni.com/X3DocumentSettings.xsd" />
+                </SourceFileReference>
+                <DefinitionReference Bindings="Envoy,DefinitionReference,EmbeddedReference,ProjectItemDragDropDefaultService" DocumentTypeIdentifier="NationalInstruments.ExternalFileSupport.Modeling.ExternalFileType" Name="stall_D\.ev3p\.mbxml" />
             </Target>
             <ProjectSettings>
                 <NamedGlobalData xmlns="http://www.ni.com/X3NamedGlobalData.xsd">
@@ -269,6 +277,18 @@
     <Namespace Name="show_value\.ev3p\.mbxml">
         <ExternalFile xmlns="http://www.ni.com/ExternalFile.xsd">
             <RelativeStoragePath>show_value.ev3p.mbxml</RelativeStoragePath>
+            <StoragePath />
+        </ExternalFile>
+    </Namespace>
+    <Namespace Name="stall_A\.ev3p\.mbxml">
+        <ExternalFile xmlns="http://www.ni.com/ExternalFile.xsd">
+            <RelativeStoragePath>stall_A.ev3p.mbxml</RelativeStoragePath>
+            <StoragePath />
+        </ExternalFile>
+    </Namespace>
+    <Namespace Name="stall_D\.ev3p\.mbxml">
+        <ExternalFile xmlns="http://www.ni.com/ExternalFile.xsd">
+            <RelativeStoragePath>stall_D.ev3p.mbxml</RelativeStoragePath>
             <StoragePath />
         </ExternalFile>
     </Namespace>
