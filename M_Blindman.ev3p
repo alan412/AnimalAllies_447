@@ -101,7 +101,7 @@
                             <ConfigurableMethodTerminal ConfiguredValue="86">
                                 <Terminal Id="gyro\ angle" Direction="Input" DataType="Single" Hotspot="0.5 1" Bounds="54 56 30 27" />
                             </ConfigurableMethodTerminal>
-                            <ConfigurableMethodTerminal ConfiguredValue="50">
+                            <ConfigurableMethodTerminal ConfiguredValue="65">
                                 <Terminal Id="cm" Direction="Input" DataType="Single" Hotspot="0.5 1" Bounds="85 56 30 27" />
                             </ConfigurableMethodTerminal>
                             <ConfigurableMethodTerminal ConfiguredValue="20">
