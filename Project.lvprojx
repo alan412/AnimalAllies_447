@@ -6,12 +6,12 @@
                 <ProjectReference ReferenceName="NationalInstruments.VI.VirtualMachine.Runtime, Version=0.0.0.0" ReferencePath=""/>
                 <ProjectReference ReferenceName="NationalInstruments.LabVIEW.CoreRuntime, Version=0.0.0.0" ReferencePath=""/>
                 <SourceFileReference StoragePath="Activity.x3a" RelativeStoragePath="Activity.x3a" DocumentTypeIdentifier="NationalInstruments.GuidedHelpFramework.Model.GuidedHelp" Name="Activity\.x3a"/>
-                <SourceFileReference StoragePath="Animal Conservation.ev3p" RelativeStoragePath="Animal Conservation.ev3p" OverridingDocumentTypeIdentifier="X3VIDocument" DocumentTypeIdentifier="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Animal\ Conservation\.ev3p" Bindings="Envoy,DefinitionReference,SourceFileReference,X3VIDocument"/>
-                <SourceFileReference StoragePath="Send Food.ev3p" RelativeStoragePath="Send Food.ev3p" OverridingDocumentTypeIdentifier="X3VIDocument" DocumentTypeIdentifier="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Send\ Food\.ev3p" Bindings="Envoy,DefinitionReference,SourceFileReference,X3VIDocument"/>
-                <SourceFileReference StoragePath="Test Send Food.ev3p" RelativeStoragePath="Test Send Food.ev3p" OverridingDocumentTypeIdentifier="X3VIDocument" DocumentTypeIdentifier="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Test\ Send\ Food\.ev3p" Bindings="Envoy,DefinitionReference,SourceFileReference,X3VIDocument"/>
                 <SourceFileReference StoragePath="_____Master.ev3p" RelativeStoragePath="_____Master.ev3p" OverridingDocumentTypeIdentifier="X3VIDocument" DocumentTypeIdentifier="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="_____Master\.ev3p" Bindings="Envoy,DefinitionReference,SourceFileReference,X3VIDocument"/>
+                <SourceFileReference StoragePath="Animal Conservation.ev3p" RelativeStoragePath="Animal Conservation.ev3p" OverridingDocumentTypeIdentifier="X3VIDocument" DocumentTypeIdentifier="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Animal\ Conservation\.ev3p" Bindings="Envoy,DefinitionReference,SourceFileReference,X3VIDocument"/>
                 <SourceFileReference StoragePath="get_food.ev3p" RelativeStoragePath="get_food.ev3p" OverridingDocumentTypeIdentifier="X3VIDocument" DocumentTypeIdentifier="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="get_food\.ev3p" Bindings="Envoy,DefinitionReference,SourceFileReference,X3VIDocument"/>
+                <SourceFileReference StoragePath="Send Food.ev3p" RelativeStoragePath="Send Food.ev3p" OverridingDocumentTypeIdentifier="X3VIDocument" DocumentTypeIdentifier="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Send\ Food\.ev3p" Bindings="Envoy,DefinitionReference,SourceFileReference,X3VIDocument"/>
                 <SourceFileReference StoragePath="test.ev3p" RelativeStoragePath="test.ev3p" OverridingDocumentTypeIdentifier="X3VIDocument" DocumentTypeIdentifier="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="test\.ev3p" Bindings="Envoy,DefinitionReference,SourceFileReference,X3VIDocument"/>
+                <SourceFileReference StoragePath="Test Send Food.ev3p" RelativeStoragePath="Test Send Food.ev3p" OverridingDocumentTypeIdentifier="X3VIDocument" DocumentTypeIdentifier="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Test\ Send\ Food\.ev3p" Bindings="Envoy,DefinitionReference,SourceFileReference,X3VIDocument"/>
                 <DefinitionReference DocumentTypeIdentifier="NationalInstruments.ExternalFileSupport.Modeling.ExternalFileType" Name="ActivityAssets\.laz" Bindings="Envoy,DefinitionReference,EmbeddedReference,ProjectItemDragDropDefaultService"/>
                 <DefinitionReference DocumentTypeIdentifier="NationalInstruments.X3.App.X3FolderLoaderDefinition" Name="vi\.lib_" Bindings="Envoy,DefinitionReference,EmbeddedReference"/>
                 <DefinitionReference DocumentTypeIdentifier="NationalInstruments.ExternalFileSupport.Modeling.ExternalFileType" Name="___ProjectTitle" Bindings="Envoy,DefinitionReference,EmbeddedReference,ProjectItemDragDropDefaultService"/>
@@ -19,42 +19,6 @@
                 <DefinitionReference DocumentTypeIdentifier="NationalInstruments.ExternalFileSupport.Modeling.ExternalFileType" Name="___ProjectThumbnail" Bindings="Envoy,DefinitionReference,EmbeddedReference,ProjectItemDragDropDefaultService"/>
                 <DefinitionReference DocumentTypeIdentifier="NationalInstruments.ExternalFileSupport.Modeling.ExternalFileType" Name="___ProjectDescription" Bindings="Envoy,DefinitionReference,EmbeddedReference,ProjectItemDragDropDefaultService"/>
                 <DefinitionReference DocumentTypeIdentifier="NationalInstruments.X3.App.X3FolderLoaderDefinition" Name="vi\.lib_PBR" Bindings="Envoy,DefinitionReference,EmbeddedReference"/>
-                <SourceFileReference StoragePath="Get_Mission.ev3p" RelativeStoragePath="Get_Mission.ev3p" OverridingDocumentTypeIdentifier="X3VIDocument" DocumentTypeIdentifier="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Get_Mission\.ev3p" Bindings="Envoy,DefinitionReference,SourceFileReference,X3VIDocument">
-                    <X3DocumentSettings ShowFileOnStartup="False" IsTeacherOnlyFile="False" IsHiddenDependency="False" xmlns="http://www.ni.com/X3DocumentSettings.xsd"/>
-                </SourceFileReference>
-                <DefinitionReference DocumentTypeIdentifier="NationalInstruments.ExternalFileSupport.Modeling.ExternalFileType" Name="Get_Mission\.ev3p\.mbxml" Bindings="Envoy,DefinitionReference,EmbeddedReference,ProjectItemDragDropDefaultService"/>
-                <SourceFileReference StoragePath="GyroReset.ev3p" RelativeStoragePath="GyroReset.ev3p" OverridingDocumentTypeIdentifier="X3VIDocument" DocumentTypeIdentifier="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="GyroReset\.ev3p" Bindings="Envoy,DefinitionReference,SourceFileReference,X3VIDocument">
-                    <X3DocumentSettings ShowFileOnStartup="False" IsTeacherOnlyFile="False" IsHiddenDependency="False" xmlns="http://www.ni.com/X3DocumentSettings.xsd"/>
-                </SourceFileReference>
-                <DefinitionReference DocumentTypeIdentifier="NationalInstruments.ExternalFileSupport.Modeling.ExternalFileType" Name="GyroReset\.ev3p\.mbxml" Bindings="Envoy,DefinitionReference,EmbeddedReference,ProjectItemDragDropDefaultService"/>
-                <SourceFileReference StoragePath="HeadingChange.ev3p" RelativeStoragePath="HeadingChange.ev3p" OverridingDocumentTypeIdentifier="X3VIDocument" DocumentTypeIdentifier="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="HeadingChange\.ev3p" Bindings="Envoy,DefinitionReference,SourceFileReference,X3VIDocument">
-                    <X3DocumentSettings ShowFileOnStartup="False" IsTeacherOnlyFile="False" IsHiddenDependency="False" xmlns="http://www.ni.com/X3DocumentSettings.xsd"/>
-                </SourceFileReference>
-                <DefinitionReference DocumentTypeIdentifier="NationalInstruments.ExternalFileSupport.Modeling.ExternalFileType" Name="HeadingChange\.ev3p\.mbxml" Bindings="Envoy,DefinitionReference,EmbeddedReference,ProjectItemDragDropDefaultService"/>
-                <SourceFileReference StoragePath="M_Blindman.ev3p" RelativeStoragePath="M_Blindman.ev3p" OverridingDocumentTypeIdentifier="X3VIDocument" DocumentTypeIdentifier="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="M_Blindman\.ev3p" Bindings="Envoy,DefinitionReference,SourceFileReference,X3VIDocument">
-                    <X3DocumentSettings ShowFileOnStartup="False" IsTeacherOnlyFile="False" IsHiddenDependency="False" xmlns="http://www.ni.com/X3DocumentSettings.xsd"/>
-                </SourceFileReference>
-                <DefinitionReference DocumentTypeIdentifier="NationalInstruments.ExternalFileSupport.Modeling.ExternalFileType" Name="M_Blindman\.ev3p\.mbxml" Bindings="Envoy,DefinitionReference,EmbeddedReference,ProjectItemDragDropDefaultService"/>
-                <SourceFileReference StoragePath="M_None.ev3p" RelativeStoragePath="M_None.ev3p" OverridingDocumentTypeIdentifier="X3VIDocument" DocumentTypeIdentifier="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="M_None\.ev3p" Bindings="Envoy,DefinitionReference,SourceFileReference,X3VIDocument">
-                    <X3DocumentSettings ShowFileOnStartup="False" IsTeacherOnlyFile="False" IsHiddenDependency="False" xmlns="http://www.ni.com/X3DocumentSettings.xsd"/>
-                </SourceFileReference>
-                <DefinitionReference DocumentTypeIdentifier="NationalInstruments.ExternalFileSupport.Modeling.ExternalFileType" Name="M_None\.ev3p\.mbxml" Bindings="Envoy,DefinitionReference,EmbeddedReference,ProjectItemDragDropDefaultService"/>
-                <SourceFileReference StoragePath="M_Pig.ev3p" RelativeStoragePath="M_Pig.ev3p" OverridingDocumentTypeIdentifier="X3VIDocument" DocumentTypeIdentifier="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="M_Pig\.ev3p" Bindings="Envoy,DefinitionReference,SourceFileReference,X3VIDocument">
-                    <X3DocumentSettings ShowFileOnStartup="False" IsTeacherOnlyFile="False" IsHiddenDependency="False" xmlns="http://www.ni.com/X3DocumentSettings.xsd"/>
-                </SourceFileReference>
-                <DefinitionReference DocumentTypeIdentifier="NationalInstruments.ExternalFileSupport.Modeling.ExternalFileType" Name="M_Pig\.ev3p\.mbxml" Bindings="Envoy,DefinitionReference,EmbeddedReference,ProjectItemDragDropDefaultService"/>
-                <SourceFileReference StoragePath="M_Shark.ev3p" RelativeStoragePath="M_Shark.ev3p" OverridingDocumentTypeIdentifier="X3VIDocument" DocumentTypeIdentifier="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="M_Shark\.ev3p" Bindings="Envoy,DefinitionReference,SourceFileReference,X3VIDocument">
-                    <X3DocumentSettings ShowFileOnStartup="False" IsTeacherOnlyFile="False" IsHiddenDependency="False" xmlns="http://www.ni.com/X3DocumentSettings.xsd"/>
-                </SourceFileReference>
-                <DefinitionReference DocumentTypeIdentifier="NationalInstruments.ExternalFileSupport.Modeling.ExternalFileType" Name="M_Shark\.ev3p\.mbxml" Bindings="Envoy,DefinitionReference,EmbeddedReference,ProjectItemDragDropDefaultService"/>
-                <SourceFileReference StoragePath="M_sample.ev3p" RelativeStoragePath="M_sample.ev3p" OverridingDocumentTypeIdentifier="X3VIDocument" DocumentTypeIdentifier="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="M_sample\.ev3p" Bindings="Envoy,DefinitionReference,SourceFileReference,X3VIDocument">
-                    <X3DocumentSettings ShowFileOnStartup="False" IsTeacherOnlyFile="False" IsHiddenDependency="False" xmlns="http://www.ni.com/X3DocumentSettings.xsd"/>
-                </SourceFileReference>
-                <DefinitionReference DocumentTypeIdentifier="NationalInstruments.ExternalFileSupport.Modeling.ExternalFileType" Name="M_sample\.ev3p\.mbxml" Bindings="Envoy,DefinitionReference,EmbeddedReference,ProjectItemDragDropDefaultService"/>
-                <SourceFileReference StoragePath="Normalized_Gyro_Angle.ev3p" RelativeStoragePath="Normalized_Gyro_Angle.ev3p" OverridingDocumentTypeIdentifier="X3VIDocument" DocumentTypeIdentifier="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Normalized_Gyro_Angle\.ev3p" Bindings="Envoy,DefinitionReference,SourceFileReference,X3VIDocument">
-                    <X3DocumentSettings ShowFileOnStartup="False" IsTeacherOnlyFile="False" IsHiddenDependency="False" xmlns="http://www.ni.com/X3DocumentSettings.xsd"/>
-                </SourceFileReference>
-                <DefinitionReference DocumentTypeIdentifier="NationalInstruments.ExternalFileSupport.Modeling.ExternalFileType" Name="Normalized_Gyro_Angle\.ev3p\.mbxml" Bindings="Envoy,DefinitionReference,EmbeddedReference,ProjectItemDragDropDefaultService"/>
                 <SourceFileReference StoragePath="beep.ev3p" RelativeStoragePath="beep.ev3p" OverridingDocumentTypeIdentifier="X3VIDocument" DocumentTypeIdentifier="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="beep\.ev3p" Bindings="Envoy,DefinitionReference,SourceFileReference,X3VIDocument">
                     <X3DocumentSettings ShowFileOnStartup="False" IsTeacherOnlyFile="False" IsHiddenDependency="False" xmlns="http://www.ni.com/X3DocumentSettings.xsd"/>
                 </SourceFileReference>
@@ -71,6 +35,10 @@
                     <X3DocumentSettings ShowFileOnStartup="False" IsTeacherOnlyFile="False" IsHiddenDependency="False" xmlns="http://www.ni.com/X3DocumentSettings.xsd"/>
                 </SourceFileReference>
                 <DefinitionReference DocumentTypeIdentifier="NationalInstruments.ExternalFileSupport.Modeling.ExternalFileType" Name="drive_cm\.ev3p\.mbxml" Bindings="Envoy,DefinitionReference,EmbeddedReference,ProjectItemDragDropDefaultService"/>
+                <SourceFileReference StoragePath="Get_Mission.ev3p" RelativeStoragePath="Get_Mission.ev3p" OverridingDocumentTypeIdentifier="X3VIDocument" DocumentTypeIdentifier="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Get_Mission\.ev3p" Bindings="Envoy,DefinitionReference,SourceFileReference,X3VIDocument">
+                    <X3DocumentSettings ShowFileOnStartup="False" IsTeacherOnlyFile="False" IsHiddenDependency="False" xmlns="http://www.ni.com/X3DocumentSettings.xsd"/>
+                </SourceFileReference>
+                <DefinitionReference DocumentTypeIdentifier="NationalInstruments.ExternalFileSupport.Modeling.ExternalFileType" Name="Get_Mission\.ev3p\.mbxml" Bindings="Envoy,DefinitionReference,EmbeddedReference,ProjectItemDragDropDefaultService"/>
                 <SourceFileReference StoragePath="gyro_calibrate.ev3p" RelativeStoragePath="gyro_calibrate.ev3p" OverridingDocumentTypeIdentifier="X3VIDocument" DocumentTypeIdentifier="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="gyro_calibrate\.ev3p" Bindings="Envoy,DefinitionReference,SourceFileReference,X3VIDocument">
                     <X3DocumentSettings ShowFileOnStartup="False" IsTeacherOnlyFile="False" IsHiddenDependency="False" xmlns="http://www.ni.com/X3DocumentSettings.xsd"/>
                 </SourceFileReference>
@@ -83,10 +51,38 @@
                     <X3DocumentSettings ShowFileOnStartup="False" IsTeacherOnlyFile="False" IsHiddenDependency="False" xmlns="http://www.ni.com/X3DocumentSettings.xsd"/>
                 </SourceFileReference>
                 <DefinitionReference DocumentTypeIdentifier="NationalInstruments.ExternalFileSupport.Modeling.ExternalFileType" Name="gyrocm\.ev3p\.mbxml" Bindings="Envoy,DefinitionReference,EmbeddedReference,ProjectItemDragDropDefaultService"/>
+                <SourceFileReference StoragePath="GyroReset.ev3p" RelativeStoragePath="GyroReset.ev3p" OverridingDocumentTypeIdentifier="X3VIDocument" DocumentTypeIdentifier="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="GyroReset\.ev3p" Bindings="Envoy,DefinitionReference,SourceFileReference,X3VIDocument">
+                    <X3DocumentSettings ShowFileOnStartup="False" IsTeacherOnlyFile="False" IsHiddenDependency="False" xmlns="http://www.ni.com/X3DocumentSettings.xsd"/>
+                </SourceFileReference>
+                <DefinitionReference DocumentTypeIdentifier="NationalInstruments.ExternalFileSupport.Modeling.ExternalFileType" Name="GyroReset\.ev3p\.mbxml" Bindings="Envoy,DefinitionReference,EmbeddedReference,ProjectItemDragDropDefaultService"/>
                 <SourceFileReference StoragePath="gyrotillline.ev3p" RelativeStoragePath="gyrotillline.ev3p" OverridingDocumentTypeIdentifier="X3VIDocument" DocumentTypeIdentifier="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="gyrotillline\.ev3p" Bindings="Envoy,DefinitionReference,SourceFileReference,X3VIDocument">
                     <X3DocumentSettings ShowFileOnStartup="False" IsTeacherOnlyFile="False" IsHiddenDependency="False" xmlns="http://www.ni.com/X3DocumentSettings.xsd"/>
                 </SourceFileReference>
                 <DefinitionReference DocumentTypeIdentifier="NationalInstruments.ExternalFileSupport.Modeling.ExternalFileType" Name="gyrotillline\.ev3p\.mbxml" Bindings="Envoy,DefinitionReference,EmbeddedReference,ProjectItemDragDropDefaultService"/>
+                <SourceFileReference StoragePath="HeadingChange.ev3p" RelativeStoragePath="HeadingChange.ev3p" OverridingDocumentTypeIdentifier="X3VIDocument" DocumentTypeIdentifier="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="HeadingChange\.ev3p" Bindings="Envoy,DefinitionReference,SourceFileReference,X3VIDocument">
+                    <X3DocumentSettings ShowFileOnStartup="False" IsTeacherOnlyFile="False" IsHiddenDependency="False" xmlns="http://www.ni.com/X3DocumentSettings.xsd"/>
+                </SourceFileReference>
+                <DefinitionReference DocumentTypeIdentifier="NationalInstruments.ExternalFileSupport.Modeling.ExternalFileType" Name="HeadingChange\.ev3p\.mbxml" Bindings="Envoy,DefinitionReference,EmbeddedReference,ProjectItemDragDropDefaultService"/>
+                <SourceFileReference StoragePath="M_Blindman.ev3p" RelativeStoragePath="M_Blindman.ev3p" OverridingDocumentTypeIdentifier="X3VIDocument" DocumentTypeIdentifier="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="M_Blindman\.ev3p" Bindings="Envoy,DefinitionReference,SourceFileReference,X3VIDocument">
+                    <X3DocumentSettings ShowFileOnStartup="False" IsTeacherOnlyFile="False" IsHiddenDependency="False" xmlns="http://www.ni.com/X3DocumentSettings.xsd"/>
+                </SourceFileReference>
+                <DefinitionReference DocumentTypeIdentifier="NationalInstruments.ExternalFileSupport.Modeling.ExternalFileType" Name="M_Blindman\.ev3p\.mbxml" Bindings="Envoy,DefinitionReference,EmbeddedReference,ProjectItemDragDropDefaultService"/>
+                <SourceFileReference StoragePath="M_None.ev3p" RelativeStoragePath="M_None.ev3p" OverridingDocumentTypeIdentifier="X3VIDocument" DocumentTypeIdentifier="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="M_None\.ev3p" Bindings="Envoy,DefinitionReference,SourceFileReference,X3VIDocument">
+                    <X3DocumentSettings ShowFileOnStartup="False" IsTeacherOnlyFile="False" IsHiddenDependency="False" xmlns="http://www.ni.com/X3DocumentSettings.xsd"/>
+                </SourceFileReference>
+                <DefinitionReference DocumentTypeIdentifier="NationalInstruments.ExternalFileSupport.Modeling.ExternalFileType" Name="M_None\.ev3p\.mbxml" Bindings="Envoy,DefinitionReference,EmbeddedReference,ProjectItemDragDropDefaultService"/>
+                <SourceFileReference StoragePath="M_Pig.ev3p" RelativeStoragePath="M_Pig.ev3p" OverridingDocumentTypeIdentifier="X3VIDocument" DocumentTypeIdentifier="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="M_Pig\.ev3p" Bindings="Envoy,DefinitionReference,SourceFileReference,X3VIDocument">
+                    <X3DocumentSettings ShowFileOnStartup="False" IsTeacherOnlyFile="False" IsHiddenDependency="False" xmlns="http://www.ni.com/X3DocumentSettings.xsd"/>
+                </SourceFileReference>
+                <DefinitionReference DocumentTypeIdentifier="NationalInstruments.ExternalFileSupport.Modeling.ExternalFileType" Name="M_Pig\.ev3p\.mbxml" Bindings="Envoy,DefinitionReference,EmbeddedReference,ProjectItemDragDropDefaultService"/>
+                <SourceFileReference StoragePath="M_sample.ev3p" RelativeStoragePath="M_sample.ev3p" OverridingDocumentTypeIdentifier="X3VIDocument" DocumentTypeIdentifier="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="M_sample\.ev3p" Bindings="Envoy,DefinitionReference,SourceFileReference,X3VIDocument">
+                    <X3DocumentSettings ShowFileOnStartup="False" IsTeacherOnlyFile="False" IsHiddenDependency="False" xmlns="http://www.ni.com/X3DocumentSettings.xsd"/>
+                </SourceFileReference>
+                <DefinitionReference DocumentTypeIdentifier="NationalInstruments.ExternalFileSupport.Modeling.ExternalFileType" Name="M_sample\.ev3p\.mbxml" Bindings="Envoy,DefinitionReference,EmbeddedReference,ProjectItemDragDropDefaultService"/>
+                <SourceFileReference StoragePath="M_Shark.ev3p" RelativeStoragePath="M_Shark.ev3p" OverridingDocumentTypeIdentifier="X3VIDocument" DocumentTypeIdentifier="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="M_Shark\.ev3p" Bindings="Envoy,DefinitionReference,SourceFileReference,X3VIDocument">
+                    <X3DocumentSettings ShowFileOnStartup="False" IsTeacherOnlyFile="False" IsHiddenDependency="False" xmlns="http://www.ni.com/X3DocumentSettings.xsd"/>
+                </SourceFileReference>
+                <DefinitionReference DocumentTypeIdentifier="NationalInstruments.ExternalFileSupport.Modeling.ExternalFileType" Name="M_Shark\.ev3p\.mbxml" Bindings="Envoy,DefinitionReference,EmbeddedReference,ProjectItemDragDropDefaultService"/>
                 <SourceFileReference StoragePath="max.ev3p" RelativeStoragePath="max.ev3p" OverridingDocumentTypeIdentifier="X3VIDocument" DocumentTypeIdentifier="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="max\.ev3p" Bindings="Envoy,DefinitionReference,SourceFileReference,X3VIDocument">
                     <X3DocumentSettings ShowFileOnStartup="False" IsTeacherOnlyFile="False" IsHiddenDependency="False" xmlns="http://www.ni.com/X3DocumentSettings.xsd"/>
                 </SourceFileReference>
@@ -95,6 +91,10 @@
                     <X3DocumentSettings ShowFileOnStartup="False" IsTeacherOnlyFile="False" IsHiddenDependency="False" xmlns="http://www.ni.com/X3DocumentSettings.xsd"/>
                 </SourceFileReference>
                 <DefinitionReference DocumentTypeIdentifier="NationalInstruments.ExternalFileSupport.Modeling.ExternalFileType" Name="min\.ev3p\.mbxml" Bindings="Envoy,DefinitionReference,EmbeddedReference,ProjectItemDragDropDefaultService"/>
+                <SourceFileReference StoragePath="Normalized_Gyro_Angle.ev3p" RelativeStoragePath="Normalized_Gyro_Angle.ev3p" OverridingDocumentTypeIdentifier="X3VIDocument" DocumentTypeIdentifier="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Normalized_Gyro_Angle\.ev3p" Bindings="Envoy,DefinitionReference,SourceFileReference,X3VIDocument">
+                    <X3DocumentSettings ShowFileOnStartup="False" IsTeacherOnlyFile="False" IsHiddenDependency="False" xmlns="http://www.ni.com/X3DocumentSettings.xsd"/>
+                </SourceFileReference>
+                <DefinitionReference DocumentTypeIdentifier="NationalInstruments.ExternalFileSupport.Modeling.ExternalFileType" Name="Normalized_Gyro_Angle\.ev3p\.mbxml" Bindings="Envoy,DefinitionReference,EmbeddedReference,ProjectItemDragDropDefaultService"/>
                 <SourceFileReference StoragePath="resetblock.ev3p" RelativeStoragePath="resetblock.ev3p" OverridingDocumentTypeIdentifier="X3VIDocument" DocumentTypeIdentifier="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="resetblock\.ev3p" Bindings="Envoy,DefinitionReference,SourceFileReference,X3VIDocument">
                     <X3DocumentSettings ShowFileOnStartup="False" IsTeacherOnlyFile="False" IsHiddenDependency="False" xmlns="http://www.ni.com/X3DocumentSettings.xsd"/>
                 </SourceFileReference>
@@ -118,8 +118,8 @@
             </Target>
             <ProjectSettings>
                 <NamedGlobalData xmlns="http://www.ni.com/X3NamedGlobalData.xsd">
-                    <Datum Name="gyro offset" Kind="Variable" Type="X3Numeric"/>
                     <Datum Name="wheel circ" Kind="Variable" Type="X3Numeric"/>
+                    <Datum Name="gyro offset" Kind="Variable" Type="X3Numeric"/>
                 </NamedGlobalData>
                 <ProjectOrigin Path="en-US/Internal/FreePlayProgram.ev3" xmlns="http://www.ni.com/X3ProjectOrigin.xsd"/>
                 <DaisyChainMode On="False" xmlns="http://www.ni.com/X3ProjectPropertiesModel.xsd"/>
@@ -173,15 +173,63 @@
             <Location/>
         </LoaderDefinition>
     </Namespace>
+    <Namespace Name="beep\.ev3p\.mbxml">
+        <ExternalFile xmlns="http://www.ni.com/ExternalFile.xsd">
+            <RelativeStoragePath>beep.ev3p.mbxml</RelativeStoragePath>
+            <StoragePath/>
+        </ExternalFile>
+    </Namespace>
+    <Namespace Name="cm2output\.ev3p\.mbxml">
+        <ExternalFile xmlns="http://www.ni.com/ExternalFile.xsd">
+            <RelativeStoragePath>cm2output.ev3p.mbxml</RelativeStoragePath>
+            <StoragePath/>
+        </ExternalFile>
+    </Namespace>
+    <Namespace Name="constrain\.ev3p\.mbxml">
+        <ExternalFile xmlns="http://www.ni.com/ExternalFile.xsd">
+            <RelativeStoragePath>constrain.ev3p.mbxml</RelativeStoragePath>
+            <StoragePath/>
+        </ExternalFile>
+    </Namespace>
+    <Namespace Name="drive_cm\.ev3p\.mbxml">
+        <ExternalFile xmlns="http://www.ni.com/ExternalFile.xsd">
+            <RelativeStoragePath>drive_cm.ev3p.mbxml</RelativeStoragePath>
+            <StoragePath/>
+        </ExternalFile>
+    </Namespace>
     <Namespace Name="Get_Mission\.ev3p\.mbxml">
         <ExternalFile xmlns="http://www.ni.com/ExternalFile.xsd">
             <RelativeStoragePath>Get_Mission.ev3p.mbxml</RelativeStoragePath>
             <StoragePath/>
         </ExternalFile>
     </Namespace>
+    <Namespace Name="gyro_calibrate\.ev3p\.mbxml">
+        <ExternalFile xmlns="http://www.ni.com/ExternalFile.xsd">
+            <RelativeStoragePath>gyro_calibrate.ev3p.mbxml</RelativeStoragePath>
+            <StoragePath/>
+        </ExternalFile>
+    </Namespace>
+    <Namespace Name="gyro_turn\.ev3p\.mbxml">
+        <ExternalFile xmlns="http://www.ni.com/ExternalFile.xsd">
+            <RelativeStoragePath>gyro_turn.ev3p.mbxml</RelativeStoragePath>
+            <StoragePath/>
+        </ExternalFile>
+    </Namespace>
+    <Namespace Name="gyrocm\.ev3p\.mbxml">
+        <ExternalFile xmlns="http://www.ni.com/ExternalFile.xsd">
+            <RelativeStoragePath>gyrocm.ev3p.mbxml</RelativeStoragePath>
+            <StoragePath/>
+        </ExternalFile>
+    </Namespace>
     <Namespace Name="GyroReset\.ev3p\.mbxml">
         <ExternalFile xmlns="http://www.ni.com/ExternalFile.xsd">
             <RelativeStoragePath>GyroReset.ev3p.mbxml</RelativeStoragePath>
+            <StoragePath/>
+        </ExternalFile>
+    </Namespace>
+    <Namespace Name="gyrotillline\.ev3p\.mbxml">
+        <ExternalFile xmlns="http://www.ni.com/ExternalFile.xsd">
+            <RelativeStoragePath>gyrotillline.ev3p.mbxml</RelativeStoragePath>
             <StoragePath/>
         </ExternalFile>
     </Namespace>
@@ -209,69 +257,15 @@
             <StoragePath/>
         </ExternalFile>
     </Namespace>
-    <Namespace Name="M_Shark\.ev3p\.mbxml">
-        <ExternalFile xmlns="http://www.ni.com/ExternalFile.xsd">
-            <RelativeStoragePath>M_Shark.ev3p.mbxml</RelativeStoragePath>
-            <StoragePath/>
-        </ExternalFile>
-    </Namespace>
     <Namespace Name="M_sample\.ev3p\.mbxml">
         <ExternalFile xmlns="http://www.ni.com/ExternalFile.xsd">
             <RelativeStoragePath>M_sample.ev3p.mbxml</RelativeStoragePath>
             <StoragePath/>
         </ExternalFile>
     </Namespace>
-    <Namespace Name="Normalized_Gyro_Angle\.ev3p\.mbxml">
+    <Namespace Name="M_Shark\.ev3p\.mbxml">
         <ExternalFile xmlns="http://www.ni.com/ExternalFile.xsd">
-            <RelativeStoragePath>Normalized_Gyro_Angle.ev3p.mbxml</RelativeStoragePath>
-            <StoragePath/>
-        </ExternalFile>
-    </Namespace>
-    <Namespace Name="beep\.ev3p\.mbxml">
-        <ExternalFile xmlns="http://www.ni.com/ExternalFile.xsd">
-            <RelativeStoragePath>beep.ev3p.mbxml</RelativeStoragePath>
-            <StoragePath/>
-        </ExternalFile>
-    </Namespace>
-    <Namespace Name="cm2output\.ev3p\.mbxml">
-        <ExternalFile xmlns="http://www.ni.com/ExternalFile.xsd">
-            <RelativeStoragePath>cm2output.ev3p.mbxml</RelativeStoragePath>
-            <StoragePath/>
-        </ExternalFile>
-    </Namespace>
-    <Namespace Name="constrain\.ev3p\.mbxml">
-        <ExternalFile xmlns="http://www.ni.com/ExternalFile.xsd">
-            <RelativeStoragePath>constrain.ev3p.mbxml</RelativeStoragePath>
-            <StoragePath/>
-        </ExternalFile>
-    </Namespace>
-    <Namespace Name="drive_cm\.ev3p\.mbxml">
-        <ExternalFile xmlns="http://www.ni.com/ExternalFile.xsd">
-            <RelativeStoragePath>drive_cm.ev3p.mbxml</RelativeStoragePath>
-            <StoragePath/>
-        </ExternalFile>
-    </Namespace>
-    <Namespace Name="gyro_calibrate\.ev3p\.mbxml">
-        <ExternalFile xmlns="http://www.ni.com/ExternalFile.xsd">
-            <RelativeStoragePath>gyro_calibrate.ev3p.mbxml</RelativeStoragePath>
-            <StoragePath/>
-        </ExternalFile>
-    </Namespace>
-    <Namespace Name="gyro_turn\.ev3p\.mbxml">
-        <ExternalFile xmlns="http://www.ni.com/ExternalFile.xsd">
-            <RelativeStoragePath>gyro_turn.ev3p.mbxml</RelativeStoragePath>
-            <StoragePath/>
-        </ExternalFile>
-    </Namespace>
-    <Namespace Name="gyrocm\.ev3p\.mbxml">
-        <ExternalFile xmlns="http://www.ni.com/ExternalFile.xsd">
-            <RelativeStoragePath>gyrocm.ev3p.mbxml</RelativeStoragePath>
-            <StoragePath/>
-        </ExternalFile>
-    </Namespace>
-    <Namespace Name="gyrotillline\.ev3p\.mbxml">
-        <ExternalFile xmlns="http://www.ni.com/ExternalFile.xsd">
-            <RelativeStoragePath>gyrotillline.ev3p.mbxml</RelativeStoragePath>
+            <RelativeStoragePath>M_Shark.ev3p.mbxml</RelativeStoragePath>
             <StoragePath/>
         </ExternalFile>
     </Namespace>
@@ -284,6 +278,12 @@
     <Namespace Name="min\.ev3p\.mbxml">
         <ExternalFile xmlns="http://www.ni.com/ExternalFile.xsd">
             <RelativeStoragePath>min.ev3p.mbxml</RelativeStoragePath>
+            <StoragePath/>
+        </ExternalFile>
+    </Namespace>
+    <Namespace Name="Normalized_Gyro_Angle\.ev3p\.mbxml">
+        <ExternalFile xmlns="http://www.ni.com/ExternalFile.xsd">
+            <RelativeStoragePath>Normalized_Gyro_Angle.ev3p.mbxml</RelativeStoragePath>
             <StoragePath/>
         </ExternalFile>
     </Namespace>
