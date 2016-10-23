@@ -70,10 +70,10 @@
                     <X3DocumentSettings ShowFileOnStartup="False" IsTeacherOnlyFile="False" IsHiddenDependency="False" xmlns="http://www.ni.com/X3DocumentSettings.xsd"/>
                 </SourceFileReference>
                 <DefinitionReference DocumentTypeIdentifier="NationalInstruments.ExternalFileSupport.Modeling.ExternalFileType" Name="M_Blindman\.ev3p\.mbxml" Bindings="Envoy,DefinitionReference,EmbeddedReference,ProjectItemDragDropDefaultService"/>
-                <SourceFileReference StoragePath="m_getfood.ev3p" RelativeStoragePath="m_getfood.ev3p" OverridingDocumentTypeIdentifier="X3VIDocument" DocumentTypeIdentifier="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="m_getfood\.ev3p" Bindings="Envoy,DefinitionReference,SourceFileReference,X3VIDocument">
+                <SourceFileReference StoragePath="M_GetFood.ev3p" RelativeStoragePath="M_GetFood.ev3p" OverridingDocumentTypeIdentifier="X3VIDocument" DocumentTypeIdentifier="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="M_GetFood\.ev3p" Bindings="Envoy,DefinitionReference,SourceFileReference,X3VIDocument">
                     <X3DocumentSettings ShowFileOnStartup="False" IsTeacherOnlyFile="False" IsHiddenDependency="False" xmlns="http://www.ni.com/X3DocumentSettings.xsd"/>
                 </SourceFileReference>
-                <DefinitionReference DocumentTypeIdentifier="NationalInstruments.ExternalFileSupport.Modeling.ExternalFileType" Name="m_getfood\.ev3p\.mbxml" Bindings="Envoy,DefinitionReference,EmbeddedReference,ProjectItemDragDropDefaultService"/>
+                <DefinitionReference DocumentTypeIdentifier="NationalInstruments.ExternalFileSupport.Modeling.ExternalFileType" Name="M_GetFood\.ev3p\.mbxml" Bindings="Envoy,DefinitionReference,EmbeddedReference,ProjectItemDragDropDefaultService"/>
                 <SourceFileReference StoragePath="M_None.ev3p" RelativeStoragePath="M_None.ev3p" OverridingDocumentTypeIdentifier="X3VIDocument" DocumentTypeIdentifier="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="M_None\.ev3p" Bindings="Envoy,DefinitionReference,SourceFileReference,X3VIDocument">
                     <X3DocumentSettings ShowFileOnStartup="False" IsTeacherOnlyFile="False" IsHiddenDependency="False" xmlns="http://www.ni.com/X3DocumentSettings.xsd"/>
                 </SourceFileReference>
@@ -82,10 +82,6 @@
                     <X3DocumentSettings ShowFileOnStartup="False" IsTeacherOnlyFile="False" IsHiddenDependency="False" xmlns="http://www.ni.com/X3DocumentSettings.xsd"/>
                 </SourceFileReference>
                 <DefinitionReference DocumentTypeIdentifier="NationalInstruments.ExternalFileSupport.Modeling.ExternalFileType" Name="M_Pig\.ev3p\.mbxml" Bindings="Envoy,DefinitionReference,EmbeddedReference,ProjectItemDragDropDefaultService"/>
-                <SourceFileReference StoragePath="M_sample.ev3p" RelativeStoragePath="M_sample.ev3p" OverridingDocumentTypeIdentifier="X3VIDocument" DocumentTypeIdentifier="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="M_sample\.ev3p" Bindings="Envoy,DefinitionReference,SourceFileReference,X3VIDocument">
-                    <X3DocumentSettings ShowFileOnStartup="False" IsTeacherOnlyFile="False" IsHiddenDependency="False" xmlns="http://www.ni.com/X3DocumentSettings.xsd"/>
-                </SourceFileReference>
-                <DefinitionReference DocumentTypeIdentifier="NationalInstruments.ExternalFileSupport.Modeling.ExternalFileType" Name="M_sample\.ev3p\.mbxml" Bindings="Envoy,DefinitionReference,EmbeddedReference,ProjectItemDragDropDefaultService"/>
                 <SourceFileReference StoragePath="M_Shark.ev3p" RelativeStoragePath="M_Shark.ev3p" OverridingDocumentTypeIdentifier="X3VIDocument" DocumentTypeIdentifier="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="M_Shark\.ev3p" Bindings="Envoy,DefinitionReference,SourceFileReference,X3VIDocument">
                     <X3DocumentSettings ShowFileOnStartup="False" IsTeacherOnlyFile="False" IsHiddenDependency="False" xmlns="http://www.ni.com/X3DocumentSettings.xsd"/>
                 </SourceFileReference>
@@ -258,9 +254,9 @@
             <StoragePath/>
         </ExternalFile>
     </Namespace>
-    <Namespace Name="m_getfood\.ev3p\.mbxml">
+    <Namespace Name="M_GetFood\.ev3p\.mbxml">
         <ExternalFile xmlns="http://www.ni.com/ExternalFile.xsd">
-            <RelativeStoragePath>m_getfood.ev3p.mbxml</RelativeStoragePath>
+            <RelativeStoragePath>M_GetFood.ev3p.mbxml</RelativeStoragePath>
             <StoragePath/>
         </ExternalFile>
     </Namespace>
@@ -273,12 +269,6 @@
     <Namespace Name="M_Pig\.ev3p\.mbxml">
         <ExternalFile xmlns="http://www.ni.com/ExternalFile.xsd">
             <RelativeStoragePath>M_Pig.ev3p.mbxml</RelativeStoragePath>
-            <StoragePath/>
-        </ExternalFile>
-    </Namespace>
-    <Namespace Name="M_sample\.ev3p\.mbxml">
-        <ExternalFile xmlns="http://www.ni.com/ExternalFile.xsd">
-            <RelativeStoragePath>M_sample.ev3p.mbxml</RelativeStoragePath>
             <StoragePath/>
         </ExternalFile>
     </Namespace>
