@@ -51,7 +51,7 @@
                         <SequenceNode Id="Input" Bounds="682 75 18 18">
                             <Terminal Id="SequenceTerminal" Direction="Input" Wire="w7" DataType="NationalInstruments:SourceModel:DataTypes:X3SequenceWireDataType" Hotspot="0 0.5" Bounds="0 0 18 18" />
                         </SequenceNode>
-                        <ConfigurableMethodCall Id="n17" Bounds="18 42 132 91" Target="m_getfood\.ev3p">
+                        <ConfigurableMethodCall Id="n17" Bounds="18 42 132 91" Target="M_GetFood\.ev3p">
                             <ConfigurableMethodTerminal ConfiguredValue="0">
                                 <Terminal Id="InterruptsToListenFor_16B03592_CD76_4D58_8DC3_E3C3091E327A" Direction="Input" DataType="Int32" Hotspot="0.5 1" Bounds="0 0 0 0" />
                             </ConfigurableMethodTerminal>
