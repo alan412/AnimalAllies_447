@@ -77,7 +77,7 @@
                         <Terminal Id="SequenceOut" Direction="Output" Wire="w6" DataType="NationalInstruments:SourceModel:DataTypes:X3SequenceWireDataType" Hotspot="1 0.5" Bounds="57 33 18 18" />
                     </ConfigurableMethodCall>
                     <ConfigurableWaitFor Id="n11" Bounds="122 41 101 91" Target="TimeCompare\.vix">
-                        <ConfigurableMethodTerminal ConfiguredValue="2">
+                        <ConfigurableMethodTerminal ConfiguredValue="1">
                             <Terminal Id="How\ Long" Direction="Input" DataType="Single" Hotspot="0.5 1" Bounds="54 56 30 27" />
                         </ConfigurableMethodTerminal>
                         <ConfigurableMethodTerminal ConfiguredValue="0">
