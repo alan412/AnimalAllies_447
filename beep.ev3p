@@ -18,7 +18,7 @@
                     </ConfigurableMethodTerminal>
                     <Terminal Id="SequenceOut" Direction="Output" Wire="w13" DataType="NationalInstruments:SourceModel:DataTypes:X3SequenceWireDataType" Hotspot="1 0.5" Bounds="52 33 18 18" />
                 </StartBlock>
-                <ConfigurableCaseStructure Id="n9" Bounds="211 -46 166 176" DataType="Boolean" UserSelectorBounds="0 0 0 0" Selected="D10" Default="D10" PairedConfigurableMethodCall="n12">
+                <ConfigurableCaseStructure Id="n9" Bounds="211 -46 166 176" DataType="Boolean" UserSelectorBounds="0 0 0 0" Selected="D11" Default="D10" PairedConfigurableMethodCall="n12">
                     <Terminal Id="SequenceOut" Direction="Output" Wire="w8" DataType="NationalInstruments:SourceModel:DataTypes:X3SequenceWireDataType" Hotspot="1 0.5" Bounds="148 79 18 18" />
                     <ConfigurableCaseStructure.Case Id="D10" Bounds="10 4 146 169" Pattern="True">
                         <SequenceNode Id="Output" Bounds="0 75 18 18">
@@ -62,7 +62,7 @@
                         <Wire Id="w6" Joints="N(n11:SequenceOut) N(Input:SequenceTerminal)" />
                         <Wire Id="w7" Joints="N(n11:valueOut) N(b8:D11)" />
                     </ConfigurableCaseStructure.Case>
-                    <ConfigurableCaseStructure.ConfigurableCaseTunnel Id="b8" Terminals="n9=w10, D10=w6, D11=w7" Bounds="82 143 30 63" />
+                    <ConfigurableCaseStructure.ConfigurableCaseTunnel Id="b8" Terminals="n9=w16, D10=w6, D11=w7" Bounds="82 143 30 63" />
                 </ConfigurableCaseStructure>
                 <PairedConfigurableMethodCall Id="n12" Bounds="126 0 85 91" Target="CaseSelector_Boolean\.vix" PairedStructure="n9">
                     <ConfigurableMethodTerminal ConfiguredValue="False">
@@ -85,7 +85,7 @@
                         <Terminal Id="Volume" Direction="Input" DataType="Single" Hotspot="0.5 1" Bounds="116 56 30 27" />
                     </ConfigurableMethodTerminal>
                     <ConfigurableMethodTerminal ConfiguredValue="0">
-                        <Terminal Id="Play\ Type" Direction="Input" Wire="w10" DataType="UInt16" Hotspot="0.5 1" Bounds="147 56 30 27" />
+                        <Terminal Id="Play\ Type" Direction="Input" Wire="w16" DataType="UInt16" Hotspot="0.5 1" Bounds="147 56 30 27" />
                     </ConfigurableMethodTerminal>
                     <ConfigurableMethodTerminal ConfiguredValue="0">
                         <Terminal Id="InterruptsToListenFor_16B03592_CD76_4D58_8DC3_E3C3091E327A" Direction="Input" DataType="Int32" Hotspot="0.5 1" Bounds="0 0 0 0" />
@@ -93,7 +93,6 @@
                     <Terminal Id="SequenceIn" Direction="Input" Wire="w8" DataType="NationalInstruments:SourceModel:DataTypes:X3SequenceWireDataType" Hotspot="0 0.5" Bounds="0 33 18 18" />
                     <Terminal Id="SequenceOut" Direction="Output" DataType="NationalInstruments:SourceModel:DataTypes:X3SequenceWireDataType" Hotspot="1 0.5" Bounds="176 33 18 18" />
                 </ConfigurableMethodCall>
-                <Wire Id="w10" Joints="N(b8:n9) v(50) h(231) N(n2:Play\ Type)" />
                 <Wire Id="w8" Joints="N(n9:SequenceOut) N(n2:SequenceIn)" />
                 <Wire Id="w13" Joints="N(n1:SequenceOut) N(n12:SequenceIn)" />
                 <ConfigurableMegaAccessor Id="n16" Bounds="-143 0 111 91" Target="X3\.Lib:ConfigurableMegaAccessor" AccessorType="Input">
@@ -110,6 +109,13 @@
                 <Wire Id="w12" Joints="N(n16:hertz) v(72) h(564) N(n2:Frequency)" />
                 <Wire Id="w14" Joints="N(n16:time) v(112) h(564) N(n2:Duration)" />
                 <Wire Id="w15" Joints="N(n16:wait\?) v(22) h(251) N(n12:Boolean)" />
+                <Wire Id="w16" Joints="N(b8:n9) v(22) h(231) N(n2:Play\ Type)" />
+                <Comment Bounds="-227 -93 154 83" SizeMode="User" AttachStyle="Free">
+                    <Content>this myblock allows us to quicly d-bug w/o changing all the variables</Content>
+                </Comment>
+                <Comment Bounds="106 -179 266 101" SizeMode="User" AttachStyle="Free">
+                    <Content>this is beccause when we made the myblock we used a logic for the continuation but in ev3 it is a # so this is the converter</Content>
+                </Comment>
             </BlockDiagram>
             <Icon>
                 <Model0:IconPanel xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:Model0="clr-namespace:NationalInstruments.LabVIEW.VI.Design;assembly=NationalInstruments.LabVIEW.VI.SourceModel" xmlns:fpruntime="clr-namespace:NationalInstruments.LabVIEW.FrontPanelRuntime;assembly=NationalInstruments.LabVIEW.FrontPanelRuntime" xmlns:ation="http://schemas.microsoft.com/winfx/2006/xaml/presentation" Height="70" Width="56">
@@ -120,16 +126,16 @@
                         <fpruntime:EventContainer />
                     </fpruntime:EventProperties.Events>
                     <Model0:IconPanel.Background>
-                        <ation:LinearGradientBrush ation:StartPoint="0.5, 0" ation:EndPoint="0.5, 1">
-                            <ation:GradientStop ation:Color="#FFF6F5C6" />
-                            <ation:GradientStop ation:Color="#FFFFFFFE" ation:Offset="0.25" />
-                            <ation:GradientStop ation:Color="#FFF6F5C6" ation:Offset="1" />
+                        <ation:LinearGradientBrush StartPoint="0.5, 0" EndPoint="0.5, 1">
                             <ation:LinearGradientBrush.Transform>
                                 <ation:MatrixTransform />
                             </ation:LinearGradientBrush.Transform>
                             <ation:LinearGradientBrush.RelativeTransform>
                                 <ation:MatrixTransform />
                             </ation:LinearGradientBrush.RelativeTransform>
+                            <ation:GradientStop Color="#FFF6F5C6" />
+                            <ation:GradientStop Color="#FFFFFFFE" Offset="0.25" />
+                            <ation:GradientStop Color="#FFF6F5C6" Offset="1" />
                         </ation:LinearGradientBrush>
                     </Model0:IconPanel.Background>
                     <ation:Rectangle x:Name="Template" Width="NaN" Height="NaN" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="0, 13, 0, 0" ation:Grid.Row="0" ation:Grid.Column="0" ation:Grid.RowSpan="1" ation:Grid.ColumnSpan="1" Fill="#00FFFFFF" Stroke="#FF000000" StrokeThickness="1" RadiusX="0" RadiusY="0">
@@ -148,15 +154,15 @@
                             <fpruntime:EventContainer />
                         </fpruntime:EventProperties.Events>
                         <ation:Rectangle.Fill>
-                            <ation:LinearGradientBrush ation:StartPoint="0.5, 0" ation:EndPoint="0.5, 1">
-                                <ation:GradientStop ation:Color="#FFFFFFFF" />
-                                <ation:GradientStop ation:Color="#FFD5EAEA" ation:Offset="1" />
+                            <ation:LinearGradientBrush StartPoint="0.5, 0" EndPoint="0.5, 1">
                                 <ation:LinearGradientBrush.Transform>
                                     <ation:MatrixTransform />
                                 </ation:LinearGradientBrush.Transform>
                                 <ation:LinearGradientBrush.RelativeTransform>
                                     <ation:MatrixTransform />
                                 </ation:LinearGradientBrush.RelativeTransform>
+                                <ation:GradientStop Color="#FFFFFFFF" />
+                                <ation:GradientStop Color="#FFD5EAEA" Offset="1" />
                             </ation:LinearGradientBrush>
                         </ation:Rectangle.Fill>
                     </ation:Rectangle>

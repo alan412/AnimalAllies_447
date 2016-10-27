@@ -48,7 +48,7 @@
                         <Terminal Id="cm" Direction="Output" Wire="w9" DataType="Single" Hotspot="0.5 1" Bounds="10 56 30 27" />
                     </ConfigurableMethodTerminal>
                 </ConfigurableMegaAccessor>
-                <ConfigurableMegaAccessor Id="n11" Bounds="629 -6 80 91" Target="X3\.Lib:ConfigurableMegaAccessor" AccessorType="Output">
+                <ConfigurableMegaAccessor Id="n11" Bounds="574 -1 80 91" Target="X3\.Lib:ConfigurableMegaAccessor" AccessorType="Output">
                     <ConfigurableMethodTerminal ConfiguredValue="0">
                         <Terminal Id="rotations" Direction="Input" Wire="w11" DataType="Single" Hotspot="0.5 1" Bounds="10 56 30 27" />
                     </ConfigurableMethodTerminal>
@@ -58,7 +58,7 @@
                 </ConfigurableMegaAccessor>
                 <Wire Id="w9" Joints="N(n10:cm) v(22) h(352) N(n4:X)" />
                 <Wire Id="w10" Joints="N(n2:valueOut) v(30) h(132) N(n4:Y)" />
-                <Wire Id="w11" Joints="N(n4:Result) v(30) h(101) N(n12:X) B(0) v(70) h(296) N(n11:rotations)" />
+                <Wire Id="w11" Joints="N(n4:Result) v(70) h(241) N(n11:rotations) B(0) v(30) h(101) N(n12:X)" />
                 <ConfigurableMethodCall Id="n12" Bounds="390 0 163 91" Target="Arithmetic_Multiply\.vix">
                     <ConfigurableMethodTerminal ConfiguredValue="1">
                         <Terminal Id="X" Direction="Input" Wire="w11" DataType="Single" Hotspot="0.5 1" Bounds="54 56 30 27" />
@@ -73,7 +73,16 @@
                     <Terminal Id="SequenceOut" Direction="Output" DataType="NationalInstruments:SourceModel:DataTypes:X3SequenceWireDataType" Hotspot="1 0.5" Bounds="145 33 18 18" />
                 </ConfigurableMethodCall>
                 <Wire Id="w12" Joints="N(n4:SequenceOut) N(n12:SequenceIn)" />
-                <Wire Id="w13" Joints="N(n12:Result) v(16) h(164) N(n11:degrees)" />
+                <Wire Id="w13" Joints="N(n12:Result) v(16) h(109) N(n11:degrees)" />
+                <Comment Bounds="-131 -90 142 80" SizeMode="User" AttachStyle="Free">
+                    <Content>this myblock allows us to put CM in and get motor rotations or degrees out </Content>
+                </Comment>
+                <Comment Bounds="124 -94 258 80" SizeMode="User" AttachStyle="Free">
+                    <Content>this calculates motor rotatations by dividing the distance you want to drive by the wheel circ</Content>
+                </Comment>
+                <Comment Bounds="395 -93 128 80" SizeMode="User" AttachStyle="Free">
+                    <Content>this multiplies the motor rotations by 360 to get motor degrees</Content>
+                </Comment>
             </BlockDiagram>
         </VirtualInstrument>
     </Namespace>

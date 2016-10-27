@@ -195,6 +195,9 @@
                 <Wire Id="w9" Joints="N(n9:Run\?) v(165) h(306) N(b9:n7)" />
                 <Wire Id="w12" Joints="N(b12:n7) v(22) h(695) N(n11:Name)" />
                 <Wire Id="w13" Joints="N(n1:SequenceOut) N(n10:SequenceIn)" />
+                <Comment Bounds="109 -201 957 101" SizeMode="User" AttachStyle="Free">
+                    <Content>when this is called it looks at the color of the attachment runs that program and gives its name.</Content>
+                </Comment>
             </BlockDiagram>
         </VirtualInstrument>
     </Namespace>
