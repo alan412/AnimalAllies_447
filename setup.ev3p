@@ -92,7 +92,7 @@
                     <Wire Id="w6" Joints="N(n13:SequenceOut) N(n11:SequenceIn)" />
                     <Wire Id="w7" Joints="N(n11:SequenceOut) N(n1:SequenceIn)" />
                 </ConfigurableWhileLoop>
-                <Comment Bounds="469 -171 305 80" SizeMode="User" AttachStyle="Free">
+                <Comment Bounds="377 -155 305 80" SizeMode="User" AttachStyle="Free">
                     <Content>this make sure that the gyro is not drivting</Content>
                 </Comment>
                 <Wire Id="w7" Joints="N(n7:SequenceOut) N(n12:SequenceIn)" />
@@ -110,6 +110,9 @@
                     <Terminal Id="SequenceOut" Direction="Output" Wire="w7" DataType="NationalInstruments:SourceModel:DataTypes:X3SequenceWireDataType" Hotspot="1 0.5" Bounds="83 33 18 18" />
                 </ConfigurableMethodCall>
                 <Wire Id="w8" Joints="N(n2:SequenceOut) N(n7:SequenceIn)" />
+                <Comment Bounds="127 -87 184 80" SizeMode="User" AttachStyle="Free">
+                    <Content>this sets the values so that myblocks may use them</Content>
+                </Comment>
             </BlockDiagram>
         </VirtualInstrument>
     </Namespace>
