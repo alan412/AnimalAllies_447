@@ -31,7 +31,7 @@
                     <Terminal Id="SequenceIn" Direction="Input" Wire="w12" DataType="NationalInstruments:SourceModel:DataTypes:X3SequenceWireDataType" Hotspot="0 0.5" Bounds="0 33 18 18" />
                     <Terminal Id="SequenceOut" Direction="Output" Wire="w8" DataType="NationalInstruments:SourceModel:DataTypes:X3SequenceWireDataType" Hotspot="1 0.5" Bounds="145 33 18 18" />
                 </ConfigurableMethodCall>
-                <ConfigurableCaseStructure Id="n10" Bounds="416 -23 252 182" DataType="Boolean" UserSelectorBounds="0 0 0 0" Selected="D11" Default="D11" PairedConfigurableMethodCall="n13">
+                <ConfigurableCaseStructure Id="n10" Bounds="416 -23 252 182" DataType="Boolean" UserSelectorBounds="0 0 0 0" Selected="D12" Default="D11" PairedConfigurableMethodCall="n13">
                     <Terminal Id="SequenceOut" Direction="Output" DataType="NationalInstruments:SourceModel:DataTypes:X3SequenceWireDataType" Hotspot="1 0.5" Bounds="234 89 18 18" />
                     <ConfigurableCaseStructure.Case Id="D11" Bounds="10 4 232 175" Pattern="True">
                         <SequenceNode Id="Output" Bounds="0 85 18 18">
@@ -83,9 +83,12 @@
                         <Terminal Id="result" Direction="Input" Wire="w17" DataType="Single" Hotspot="0.5 1" Bounds="10 56 30 27" />
                     </ConfigurableMethodTerminal>
                 </ConfigurableMegaAccessor>
-                <Wire Id="w13" Joints="N(n16:\1stnumber) v(91) h(511) N(b13:n10) B(0) v(22) h(282) N(n7:x)" />
-                <Wire Id="w14" Joints="N(n16:\2condnumber) v(127) h(521) N(b14:n10) B(0) v(30) h(282) N(n7:y)" />
+                <Wire Id="w13" Joints="N(n16:\1stnumber) v(22) h(282) N(n7:x) B(0) v(91) h(511) N(b13:n10)" />
+                <Wire Id="w14" Joints="N(n16:\2condnumber) v(30) h(282) N(n7:y) B(0) v(127) h(521) N(b14:n10)" />
                 <Wire Id="w17" Joints="N(b15:n10) v(19) h(283) N(n17:result)" />
+                <Comment Bounds="60 -108 285 119" SizeMode="User" AttachStyle="Free">
+                    <Content>This is a program that calculates the larger of the two numbers inputed into the myblock.</Content>
+                </Comment>
             </BlockDiagram>
         </VirtualInstrument>
     </Namespace>

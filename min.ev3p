@@ -18,7 +18,7 @@
                     </ConfigurableMethodTerminal>
                     <Terminal Id="SequenceOut" Direction="Output" Wire="w12" DataType="NationalInstruments:SourceModel:DataTypes:X3SequenceWireDataType" Hotspot="1 0.5" Bounds="52 33 18 18" />
                 </StartBlock>
-                <ConfigurableMethodCall Id="n2" Bounds="168 34 163 91" Target="Comparison_Less\.vix">
+                <ConfigurableMethodCall Id="n2" Bounds="121 34 163 91" Target="Comparison_Less\.vix">
                     <ConfigurableMethodTerminal ConfiguredValue="1">
                         <Terminal Id="x" Direction="Input" Wire="w13" DataType="Single" Hotspot="0.5 1" Bounds="54 56 30 27" />
                     </ConfigurableMethodTerminal>
@@ -31,33 +31,33 @@
                     <Terminal Id="SequenceIn" Direction="Input" Wire="w12" DataType="NationalInstruments:SourceModel:DataTypes:X3SequenceWireDataType" Hotspot="0 0.5" Bounds="0 33 18 18" />
                     <Terminal Id="SequenceOut" Direction="Output" Wire="w18" DataType="NationalInstruments:SourceModel:DataTypes:X3SequenceWireDataType" Hotspot="1 0.5" Bounds="145 33 18 18" />
                 </ConfigurableMethodCall>
-                <ConfigurableCaseStructure Id="n9" Bounds="416 -40 338 204" DataType="Boolean" UserSelectorBounds="0 0 0 0" Selected="D11" Default="D10" PairedConfigurableMethodCall="n12">
-                    <Terminal Id="SequenceOut" Direction="Output" DataType="NationalInstruments:SourceModel:DataTypes:X3SequenceWireDataType" Hotspot="1 0.5" Bounds="320 107 18 18" />
-                    <ConfigurableCaseStructure.Case Id="D10" Bounds="10 4 318 197" Pattern="True">
+                <ConfigurableCaseStructure Id="n9" Bounds="369 -40 470 204" DataType="Boolean" UserSelectorBounds="0 0 0 0" Selected="D11" Default="D10" PairedConfigurableMethodCall="n12">
+                    <Terminal Id="SequenceOut" Direction="Output" DataType="NationalInstruments:SourceModel:DataTypes:X3SequenceWireDataType" Hotspot="1 0.5" Bounds="452 107 18 18" />
+                    <ConfigurableCaseStructure.Case Id="D10" Bounds="10 4 450 197" Pattern="True">
                         <SequenceNode Id="Output" Bounds="0 103 18 18">
                             <Terminal Id="SequenceTerminal" Direction="Output" Wire="w3" DataType="NationalInstruments:SourceModel:DataTypes:X3SequenceWireDataType" Hotspot="1 0.5" Bounds="0 0 18 18" />
                         </SequenceNode>
-                        <SequenceNode Id="Input" Bounds="291 103 18 18">
+                        <SequenceNode Id="Input" Bounds="423 103 18 18">
                             <Terminal Id="SequenceTerminal" Direction="Input" Wire="w3" DataType="NationalInstruments:SourceModel:DataTypes:X3SequenceWireDataType" Hotspot="0 0.5" Bounds="0 0 18 18" />
                         </SequenceNode>
                         <Wire Id="w3" Joints="N(Output:SequenceTerminal) N(Input:SequenceTerminal)" />
                         <Wire Id="w6" Joints="N(b12:D10) v(-41) h(150) N(b15:D10)" />
                     </ConfigurableCaseStructure.Case>
-                    <ConfigurableCaseStructure.Case Id="D11" Bounds="10 4 318 197" Pattern="False">
+                    <ConfigurableCaseStructure.Case Id="D11" Bounds="10 4 450 197" Pattern="False">
                         <SequenceNode Id="Output" Bounds="0 103 18 18">
                             <Terminal Id="SequenceTerminal" Direction="Output" Wire="w3" DataType="NationalInstruments:SourceModel:DataTypes:X3SequenceWireDataType" Hotspot="1 0.5" Bounds="0 0 18 18" />
                         </SequenceNode>
-                        <SequenceNode Id="Input" Bounds="291 103 18 18">
+                        <SequenceNode Id="Input" Bounds="423 103 18 18">
                             <Terminal Id="SequenceTerminal" Direction="Input" Wire="w3" DataType="NationalInstruments:SourceModel:DataTypes:X3SequenceWireDataType" Hotspot="0 0.5" Bounds="0 0 18 18" />
                         </SequenceNode>
                         <Wire Id="w3" Joints="N(Output:SequenceTerminal) N(Input:SequenceTerminal)" />
                         <Wire Id="w7" Joints="N(b14:D11) v(-14) h(98) N(b15:D11)" />
                     </ConfigurableCaseStructure.Case>
-                    <ConfigurableCaseStructure.ConfigurableCaseTunnel Id="b12" Terminals="n9=w13, D10=w6, D11" Bounds="44 171 30 63" />
-                    <ConfigurableCaseStructure.ConfigurableCaseTunnel Id="b14" Terminals="n9=w14, D10, D11=w7" Bounds="96 171 30 63" />
-                    <ConfigurableCaseStructure.ConfigurableCaseTunnel Id="b15" Terminals="n9=w17, D10=w6, D11=w7" Bounds="194 171 30 63" />
+                    <ConfigurableCaseStructure.ConfigurableCaseTunnel Id="b12" Terminals="n9=w13, D10=w6, D11" Bounds="176 171 30 63" />
+                    <ConfigurableCaseStructure.ConfigurableCaseTunnel Id="b14" Terminals="n9=w14, D10, D11=w7" Bounds="228 171 30 63" />
+                    <ConfigurableCaseStructure.ConfigurableCaseTunnel Id="b15" Terminals="n9=w17, D10=w6, D11=w7" Bounds="326 171 30 63" />
                 </ConfigurableCaseStructure>
-                <PairedConfigurableMethodCall Id="n12" Bounds="331 34 85 91" Target="CaseSelector_Boolean\.vix" PairedStructure="n9">
+                <PairedConfigurableMethodCall Id="n12" Bounds="284 34 85 91" Target="CaseSelector_Boolean\.vix" PairedStructure="n9">
                     <ConfigurableMethodTerminal ConfiguredValue="False">
                         <Terminal Id="Boolean" Direction="Input" Wire="w9" DataType="Boolean" Hotspot="0.5 1" Bounds="54 56 30 27" />
                     </ConfigurableMethodTerminal>
@@ -82,9 +82,12 @@
                         <Terminal Id="result" Direction="Input" Wire="w17" DataType="Single" Hotspot="0.5 1" Bounds="10 56 30 27" />
                     </ConfigurableMethodTerminal>
                 </ConfigurableMegaAccessor>
-                <Wire Id="w13" Joints="N(n15:a) v(30) h(297) N(n2:x) B(0) v(94) h(535) N(b12:n9)" />
-                <Wire Id="w14" Joints="N(n15:b) v(56) h(297) N(n2:y) B(0) v(130) h(556) N(b14:n9)" />
-                <Wire Id="w17" Joints="N(b15:n9) v(17.5) h(259) N(n16:result)" />
+                <Wire Id="w13" Joints="N(n15:a) v(94) h(620) N(b12:n9) B(0) v(30) h(250) N(n2:x)" />
+                <Wire Id="w14" Joints="N(n15:b) v(130) h(641) N(b14:n9) B(0) v(56) h(250) N(n2:y)" />
+                <Wire Id="w17" Joints="N(b15:n9) v(17.5) h(174) N(n16:result)" />
+                <Comment Bounds="87 -49 264 62" SizeMode="User" AttachStyle="Free">
+                    <Content>This is a program that calculates the smaller of the two numbers inputed into the myblock.</Content>
+                </Comment>
                 <Wire Id="w18" Joints="N(n2:SequenceOut) N(n12:SequenceIn)" />
             </BlockDiagram>
         </VirtualInstrument>
