@@ -517,6 +517,9 @@
                         </ConfigurableMethodCall>
                         <Wire Id="w46" Joints="N(n39:SequenceOut) N(Input:SequenceTerminal)" />
                         <Wire Id="w47" Joints="N(n14:SequenceOut) N(n45:SequenceIn)" />
+                        <Comment Bounds="2715 113 100 80" SizeMode="User" AttachStyle="Free">
+                            <Content>Back and forth to get the food out.</Content>
+                        </Comment>
                     </ConfigurableCaseStructure.Case>
                     <ConfigurableCaseStructure.Case Id="D26" Bounds="10 4 3796 390" Pattern="False">
                         <SequenceNode Id="Output" Bounds="0 296 18 18">
