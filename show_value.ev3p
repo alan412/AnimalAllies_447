@@ -78,7 +78,7 @@
                     </ConfigurableMethodTerminal>
                 </ConfigurableMegaAccessor>
                 <Wire Id="w8" Joints="N(n12:name) v(40) h(497) N(n2:A)" />
-                <Wire Id="w12" Joints="N(n12:line) v(156) h(691) N(n4:Row)" />
+                <Wire Id="w12" Joints="N(n12:line) v(87) h(691) N(n4:Row)" />
                 <Wire Id="w11" Joints="N(n12:erase\?) v(61) h(660) N(n4:Clear\ Screen)" />
                 <ConfigurableMethodCall Id="n13" Bounds="126 0 194 91" Target="ConcatenateStrings\.vix">
                     <ConfigurableMethodTerminal ConfiguredValue="">
@@ -99,8 +99,11 @@
                 <Wire Id="w14" Joints="N(n12:value) v(30) h(272) N(n13:A)" />
                 <Wire Id="w13" Joints="N(n13:SequenceOut) N(n2:SequenceIn)" />
                 <Wire Id="w15" Joints="N(n13:Result) v(22) h(163) N(n2:C)" />
-                <Comment Bounds="124 -85 344 80" SizeMode="User" AttachStyle="Free">
+                <Comment Bounds="135 -85 344 80" SizeMode="User" AttachStyle="Free">
                     <Content>this adds spaces to our values so that we don't make it look like a different number than it is.</Content>
+                </Comment>
+                <Comment Bounds="-132 -98 120 80" SizeMode="User" AttachStyle="Free">
+                    <Content>this myblock displays the values we put in on the screen</Content>
                 </Comment>
             </BlockDiagram>
             <Icon>

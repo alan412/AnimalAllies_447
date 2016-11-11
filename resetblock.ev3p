@@ -65,8 +65,8 @@
                     <Terminal Id="SequenceOut" Direction="Output" DataType="NationalInstruments:SourceModel:DataTypes:X3SequenceWireDataType" Hotspot="1 0.5" Bounds="83 33 18 18" />
                 </ConfigurableMethodCall>
                 <Wire Id="w13" Joints="N(n14:offset) v(22) h(551) N(n13:offset)" />
-                <Comment Bounds="42 -62 242 49" SizeMode="User" AttachStyle="Free">
-                    <Content>THis program resets the gyro.</Content>
+                <Comment Bounds="138 -48 354 44" SizeMode="User" AttachStyle="Free">
+                    <Content>this resets everything for the beginning of the run</Content>
                 </Comment>
             </BlockDiagram>
         </VirtualInstrument>
