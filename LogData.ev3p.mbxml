@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EditorDefinitions>
+  <PolyGroups>
+    <PolyGroup BlockFamily="My" IconBaseName="PolyGroup_056_Timer">
+      <Block>
+        <Mode>MyBlock</Mode>
+        <Description />
+        <Reference Type="VILib" />
+        <PaletteInfo Weight="0.5" />
+        <ParamInfo Name="name" DisplayName="name" Direction="Input" Identification="Identification_0010_Text.png" DataType="String" DefaultValue="" />
+      </Block>
+    </PolyGroup>
+  </PolyGroups>
+</EditorDefinitions>
