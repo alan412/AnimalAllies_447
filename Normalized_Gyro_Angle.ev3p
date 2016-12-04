@@ -39,7 +39,7 @@
                     <ConfigurableMethodTerminal ConfiguredValue="0">
                         <Terminal Id="D" Direction="Input" DataType="Single" Hotspot="0.5 1" Bounds="147 56 30 27" />
                     </ConfigurableMethodTerminal>
-                    <ConfigurableMethodTerminal ConfiguredValue="(-a+b)%360">
+                    <ConfigurableMethodTerminal ConfiguredValue="(a+b)%360">
                         <Terminal Id="Equation" Direction="Input" DataType="String" Hotspot="0.5 1" Bounds="0 0 0 0" />
                     </ConfigurableMethodTerminal>
                     <ConfigurableMethodTerminal>
@@ -131,7 +131,7 @@
                 <Wire Id="w26" Joints="N(n25:SequenceOut) N(n4:SequenceIn)" />
                 <Wire Id="w27" Joints="N(n25:valueOut) v(30) h(132) N(n4:Y)" />
                 <Comment Bounds="207 -96 275 115" SizeMode="User" AttachStyle="Free">
-                    <Content>this adds the offset value to the gyro reading so that we don't have to change all of our values if we decide to square on the wall this has -1 because gyro is upside down</Content>
+                    <Content>this adds the offset value to the gyro reading so that we don't have to change all of our values if we decide to square on the wall.  remove - because gyro is flipped </Content>
                 </Comment>
                 <ConfigurableMethodCall Id="n36" Bounds="1025 34 194 91" Target="show_value\.ev3p">
                     <ConfigurableMethodTerminal ConfiguredValue="0">
@@ -153,10 +153,10 @@
                     <Terminal Id="SequenceOut" Direction="Output" DataType="NationalInstruments:SourceModel:DataTypes:X3SequenceWireDataType" Hotspot="1 0.5" Bounds="176 33 18 18" />
                 </ConfigurableMethodCall>
                 <Wire Id="w40" Joints="N(n2:Angle) v(22) h(202) N(n4:X)" />
-                <Wire Id="w41" Joints="N(n4:Result) v(21) h(101) N(n7:x) B(0) v(90) h(377) N(b15:n15)" />
+                <Wire Id="w41" Joints="N(n4:Result) v(90) h(377) N(b15:n15) B(0) v(21) h(101) N(n7:x)" />
                 <Wire Id="w44" Joints="N(n1:SequenceOut) N(n2:SequenceIn)" />
                 <Wire Id="w33" Joints="N(n2:SequenceOut) N(n25:SequenceIn)" />
-                <Wire Id="w30" Joints="N(b16:n15) v(103) h(169) N(n36:value) B(0) v(65) h(389) N(n27:Angle)" />
+                <Wire Id="w30" Joints="N(b16:n15) v(65) h(389) N(n27:Angle) B(0) v(103) h(169) N(n36:value)" />
                 <Wire Id="w28" Joints="N(n15:SequenceOut) N(n36:SequenceIn)" />
                 <Wire Id="w24" Joints="N(n4:SequenceOut) N(n7:SequenceIn)" />
             </BlockDiagram>
