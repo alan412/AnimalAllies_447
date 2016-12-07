@@ -17,7 +17,7 @@
                     </ConfigurableMethodTerminal>
                     <Terminal Id="SequenceOut" Direction="Output" Wire="w13" DataType="NationalInstruments:SourceModel:DataTypes:X3SequenceWireDataType" Hotspot="1 0.5" Bounds="52 33 18 18" />
                 </StartBlock>
-                <ConfigurableCaseStructure Id="n7" Bounds="216 -46 729 214" DataType="Int32" UserSelectorBounds="0 0 0 0" Selected="D14" Default="D8" PairedConfigurableMethodCall="n10">
+                <ConfigurableCaseStructure Id="n7" Bounds="216 -46 729 214" DataType="Int32" UserSelectorBounds="0 0 0 0" Selected="D16" Default="D8" PairedConfigurableMethodCall="n10">
                     <Terminal Id="SequenceOut" Direction="Output" DataType="NationalInstruments:SourceModel:DataTypes:X3SequenceWireDataType" Hotspot="1 0.5" Bounds="711 79 18 18" />
                     <ConfigurableCaseStructure.Case Id="D8" Bounds="10 4 709 207" Pattern="0">
                         <SequenceNode Id="Output" Bounds="0 75 18 18">
