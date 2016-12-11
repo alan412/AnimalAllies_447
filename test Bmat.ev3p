@@ -30,7 +30,7 @@
                     </ConfigurableWhileLoop.BuiltInMethod>
                     <ConfigurableWhileLoop.BuiltInMethod CallType="StopCondition">
                         <ConfigurableMethodCall Id="n1" Bounds="210 58 85 91" Target="StopAfterNumberIterations\.vix">
-                            <ConfigurableMethodTerminal ConfiguredValue="18">
+                            <ConfigurableMethodTerminal ConfiguredValue="15">
                                 <Terminal Id="Iterations\ To\ Run" Direction="Input" DataType="Int32" Hotspot="0.5 1" Bounds="54 56 30 27" />
                             </ConfigurableMethodTerminal>
                             <ConfigurableMethodTerminal ConfiguredValue="0">
@@ -53,7 +53,7 @@
                         <ConfigurableMethodTerminal ConfiguredValue="100">
                             <Terminal Id="speed" Direction="Input" DataType="Single" Hotspot="0.5 1" Bounds="54 56 30 27" />
                         </ConfigurableMethodTerminal>
-                        <ConfigurableMethodTerminal ConfiguredValue="900">
+                        <ConfigurableMethodTerminal ConfiguredValue="360">
                             <Terminal Id="degrees" Direction="Input" DataType="Single" Hotspot="0.5 1" Bounds="85 56 30 27" />
                         </ConfigurableMethodTerminal>
                         <ConfigurableMethodTerminal ConfiguredValue="True">
