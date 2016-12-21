@@ -7,7 +7,9 @@
                 <ProjectReference ReferenceName="NationalInstruments.LabVIEW.CoreRuntime, Version=0.0.0.0" ReferencePath=""/>
                 <SourceFileReference StoragePath="Activity.x3a" RelativeStoragePath="Activity.x3a" DocumentTypeIdentifier="NationalInstruments.GuidedHelpFramework.Model.GuidedHelp" Name="Activity\.x3a"/>
                 <SourceFileReference StoragePath="_____Master.ev3p" RelativeStoragePath="_____Master.ev3p" OverridingDocumentTypeIdentifier="X3VIDocument" DocumentTypeIdentifier="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="_____Master\.ev3p" Bindings="Envoy,DefinitionReference,SourceFileReference,X3VIDocument"/>
+                <SourceFileReference StoragePath="bmat.ev3p" RelativeStoragePath="bmat.ev3p" OverridingDocumentTypeIdentifier="X3VIDocument" DocumentTypeIdentifier="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="bmat\.ev3p" Bindings="Envoy,DefinitionReference,SourceFileReference,X3VIDocument"/>
                 <SourceFileReference StoragePath="Cowasell.ev3p" RelativeStoragePath="Cowasell.ev3p" OverridingDocumentTypeIdentifier="X3VIDocument" DocumentTypeIdentifier="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Cowasell\.ev3p" Bindings="Envoy,DefinitionReference,SourceFileReference,X3VIDocument"/>
+                <SourceFileReference StoragePath="Program.ev3p" RelativeStoragePath="Program.ev3p" OverridingDocumentTypeIdentifier="X3VIDocument" DocumentTypeIdentifier="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Program\.ev3p" Bindings="Envoy,DefinitionReference,SourceFileReference,X3VIDocument"/>
                 <SourceFileReference StoragePath="ReadRunData.ev3p" RelativeStoragePath="ReadRunData.ev3p" OverridingDocumentTypeIdentifier="X3VIDocument" DocumentTypeIdentifier="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="ReadRunData\.ev3p" Bindings="Envoy,DefinitionReference,SourceFileReference,X3VIDocument"/>
                 <SourceFileReference StoragePath="test Bmat.ev3p" RelativeStoragePath="test Bmat.ev3p" OverridingDocumentTypeIdentifier="X3VIDocument" DocumentTypeIdentifier="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="test\ Bmat\.ev3p" Bindings="Envoy,DefinitionReference,SourceFileReference,X3VIDocument"/>
                 <SourceFileReference StoragePath="test_gecko.ev3p" RelativeStoragePath="test_gecko.ev3p" OverridingDocumentTypeIdentifier="X3VIDocument" DocumentTypeIdentifier="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="test_gecko\.ev3p" Bindings="Envoy,DefinitionReference,SourceFileReference,X3VIDocument"/>
@@ -71,6 +73,10 @@
                     <X3DocumentSettings ShowFileOnStartup="False" IsTeacherOnlyFile="False" IsHiddenDependency="False" xmlns="http://www.ni.com/X3DocumentSettings.xsd"/>
                 </SourceFileReference>
                 <DefinitionReference DocumentTypeIdentifier="NationalInstruments.ExternalFileSupport.Modeling.ExternalFileType" Name="M_Blindman\.ev3p\.mbxml" Bindings="Envoy,DefinitionReference,EmbeddedReference,ProjectItemDragDropDefaultService"/>
+                <SourceFileReference StoragePath="M_BlindmanBMAT.ev3p" RelativeStoragePath="M_BlindmanBMAT.ev3p" OverridingDocumentTypeIdentifier="X3VIDocument" DocumentTypeIdentifier="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="M_BlindmanBMAT\.ev3p" Bindings="Envoy,DefinitionReference,SourceFileReference,X3VIDocument">
+                    <X3DocumentSettings ShowFileOnStartup="False" IsTeacherOnlyFile="False" IsHiddenDependency="False" xmlns="http://www.ni.com/X3DocumentSettings.xsd"/>
+                </SourceFileReference>
+                <DefinitionReference DocumentTypeIdentifier="NationalInstruments.ExternalFileSupport.Modeling.ExternalFileType" Name="M_BlindmanBMAT\.ev3p\.mbxml" Bindings="Envoy,DefinitionReference,EmbeddedReference,ProjectItemDragDropDefaultService"/>
                 <SourceFileReference StoragePath="M_GetFood.ev3p" RelativeStoragePath="M_GetFood.ev3p" OverridingDocumentTypeIdentifier="X3VIDocument" DocumentTypeIdentifier="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="M_GetFood\.ev3p" Bindings="Envoy,DefinitionReference,SourceFileReference,X3VIDocument">
                     <X3DocumentSettings ShowFileOnStartup="False" IsTeacherOnlyFile="False" IsHiddenDependency="False" xmlns="http://www.ni.com/X3DocumentSettings.xsd"/>
                 </SourceFileReference>
@@ -123,6 +129,10 @@
                     <X3DocumentSettings ShowFileOnStartup="False" IsTeacherOnlyFile="False" IsHiddenDependency="False" xmlns="http://www.ni.com/X3DocumentSettings.xsd"/>
                 </SourceFileReference>
                 <DefinitionReference DocumentTypeIdentifier="NationalInstruments.ExternalFileSupport.Modeling.ExternalFileType" Name="stall_D\.ev3p\.mbxml" Bindings="Envoy,DefinitionReference,EmbeddedReference,ProjectItemDragDropDefaultService"/>
+                <SourceFileReference StoragePath="till_line_dark.ev3p" RelativeStoragePath="till_line_dark.ev3p" OverridingDocumentTypeIdentifier="X3VIDocument" DocumentTypeIdentifier="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="till_line_dark\.ev3p" Bindings="Envoy,DefinitionReference,SourceFileReference,X3VIDocument">
+                    <X3DocumentSettings ShowFileOnStartup="False" IsTeacherOnlyFile="False" IsHiddenDependency="False" xmlns="http://www.ni.com/X3DocumentSettings.xsd"/>
+                </SourceFileReference>
+                <DefinitionReference DocumentTypeIdentifier="NationalInstruments.ExternalFileSupport.Modeling.ExternalFileType" Name="till_line_dark\.ev3p\.mbxml" Bindings="Envoy,DefinitionReference,EmbeddedReference,ProjectItemDragDropDefaultService"/>
             </Target>
             <ProjectSettings>
                 <NamedGlobalData xmlns="http://www.ni.com/X3NamedGlobalData.xsd">
@@ -261,6 +271,12 @@
             <StoragePath/>
         </ExternalFile>
     </Namespace>
+    <Namespace Name="M_BlindmanBMAT\.ev3p\.mbxml">
+        <ExternalFile xmlns="http://www.ni.com/ExternalFile.xsd">
+            <RelativeStoragePath>M_BlindmanBMAT.ev3p.mbxml</RelativeStoragePath>
+            <StoragePath/>
+        </ExternalFile>
+    </Namespace>
     <Namespace Name="M_GetFood\.ev3p\.mbxml">
         <ExternalFile xmlns="http://www.ni.com/ExternalFile.xsd">
             <RelativeStoragePath>M_GetFood.ev3p.mbxml</RelativeStoragePath>
@@ -336,6 +352,12 @@
     <Namespace Name="stall_D\.ev3p\.mbxml">
         <ExternalFile xmlns="http://www.ni.com/ExternalFile.xsd">
             <RelativeStoragePath>stall_D.ev3p.mbxml</RelativeStoragePath>
+            <StoragePath/>
+        </ExternalFile>
+    </Namespace>
+    <Namespace Name="till_line_dark\.ev3p\.mbxml">
+        <ExternalFile xmlns="http://www.ni.com/ExternalFile.xsd">
+            <RelativeStoragePath>till_line_dark.ev3p.mbxml</RelativeStoragePath>
             <StoragePath/>
         </ExternalFile>
     </Namespace>
